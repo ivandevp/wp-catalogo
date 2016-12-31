@@ -26,11 +26,11 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="beneficios diagonal-pos">
+	<section class="intranet diagonal-pos">
     	<div class="diagonal-neg">
 	        <h2 class="text-center">INTRANET</h2>
 	        <div class="triang-abajo"></div>
-	        <p class="text-center">Si aún no estás registrado, <span class="txt-blue">haz click aquí</span></p><br>
+	        <p class="text-center">Si aún no estás registrado, <a href="" class="txt-blue">haz click aquí</a></p><br>
 	        <div class="row center">
                 <div class="col-md-8 col-md-offset-2 col-xs-12">
                 	<form class="w-100 text-center">
@@ -39,7 +39,7 @@ get_header(); ?>
 							<input type="password" class="form-control center" id="password" placeholder="Email">
 						</div>
                 		<button type="submit" class="btn btn-naranja w-100">INGRESAR</button>
-                		<p class="txt-blue"><a href="">He olvidado mi contraseña</a></p>
+                		<p class="txt-blue mt-10"><a href="">He olvidado mi contraseña</a></p>
                 	</form>
                 </div>
 	        </div>

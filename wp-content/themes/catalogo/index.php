@@ -67,11 +67,11 @@ get_header(); ?>
 	        </div>
 	    </div>    
     </section>
-    <section class="acerca-de diagonal-neg">
+    <section class="acerca-de diagonal-pos">
     	<div class="row margin-0">
     		<div class="col-md-9 col-md-offset-3 transparencia">
-    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-thn-blanco.png" style="float: right;" class="diagonal-pos"/>
-    			<ul class="diagonal-pos">
+    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-thn-blanco.png" style="float: right;" class="diagonal-neg"/>
+    			<ul class="diagonal-neg">
     				<li>
     					<h4>¿QUIÉNES SOMOS?</h4>
     					<p>Somos una empresa peruana con más de 15 años de experiencia en la comercialización de productos deportivos como ropa, zapatillas y accesorios, que propone en su portafolio productos con nuevos estilos, con tecnología de vanguardia para las diferentes categorías deportivas.</p>
@@ -91,9 +91,9 @@ get_header(); ?>
     </section>
    	<section class="marcas diagonal-pos">
    		<div class="diagonal-neg">
-	   		<h2 class="text-center">NUESTRAS MARCAS</h2>
+	   		<h2 class="text-center mt-10">NUESTRAS MARCAS</h2>
 	   		<div class="triang-abajo"></div>
-	        <div id="carousel-marcas" class="carousel slide">
+	        <div id="carousel-marcas" class="carousel slide h-100">
 	            <div class="carousel-inner">
 	        	<?php
 					$args = array('post_type' => 'cat_marcas', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');

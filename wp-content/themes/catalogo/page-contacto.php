@@ -26,7 +26,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="beneficios diagonal-pos">
+	<section class="contacto diagonal-pos">
     	<div class="diagonal-neg">
 	        <h2 class="text-center">CONTÁCTANOS</h2>
 	        <div class="triang-abajo"></div>
@@ -48,7 +48,7 @@ get_header(); ?>
 	        	<div class="col-md-6">
 	        		<div class="map">
 		        		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.758582775982!2d-76.99891837569047!3d-12.12866367458845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7f7ff85ce6f%3A0x14c650b3327522a5!2sAv.+Alfredo+Benavides+3537%2C+Santiago+de+Surco+15038%2C+Per%C3%BA!5e0!3m2!1ses!2ses!4v1482084564979" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-		        		<p>SSEDE HIGUERETA</p>
+		        		<p>SEDE HIGUERETA</p>
 	        		</div>
 	        	</div>
 	        	<div class="col-md-6">
