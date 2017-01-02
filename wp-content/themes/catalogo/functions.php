@@ -1,6 +1,8 @@
 <?php
 
 require_once get_template_directory() . '/includes/custom-nav-menu.php';
+require_once get_template_directory() . '/includes/pdf-uploader.php';
+require_once get_template_directory() . '/includes/multi-image-uploader.php';
 
 add_theme_support( 'post-thumbnails' ); 
 
@@ -27,8 +29,6 @@ register_nav_menus( array(
 	'primary' => __( 'Primary Menu', 'catalogo' ),
 ) );
 
-add_filter('nav_menu_css_class', 'add_active_class_to_nav_menu');
-
 function add_active_class_to_nav_menu($classes) {
     if (in_array('current-menu-item', $classes, true) || in_array('current_page_item', $classes, true)) {
         $classes = array_diff($classes, array('current-menu-item', 'current_page_item', 'active'));
@@ -36,8 +36,8 @@ function add_active_class_to_nav_menu($classes) {
     }
     return $classes;
 }
+add_filter('nav_menu_css_class', 'add_active_class_to_nav_menu');
 
-add_action('init', 'create_post_type');
 function create_post_type() {
     register_post_type('cat_banner',
         array(
@@ -83,4 +83,31 @@ function create_post_type() {
             'supports' => array ('title', 'page-attributes', 'thumbnail'),
         )
     );
+
+    register_post_type('cat_catalogos',
+        array(
+            'labels' => array(
+                'name' => __('Catálogos'),
+                'singular_name' => __('Catálogo')
+            ),
+            'public' => true,
+            'supports' => array ('title', 'page-attributes', 'thumbnail'),
+        )
+    );
+}
+add_action('init', 'create_post_type');
+
+function update_edit_form() {
+    echo ' enctype="multipart/form-data"';
+} // end update_edit_form
+add_action('post_edit_form_tag', 'update_edit_form');
+
+function call_uploaders() {
+    new PDFUploader();
+    new MultiImageUploader(['cat_catalogos']);
+}
+
+if (is_admin()) {
+    add_action('load-post.php', 'call_uploaders');
+    add_action('load-post-new.php', 'call_uploaders');
 }

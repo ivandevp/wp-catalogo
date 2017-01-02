@@ -30,73 +30,36 @@ get_header(); ?>
 		<h2 class="text-center diagonal-neg">CATÁLOGO VIRTUAL</h2>
 		<div class="triang-abajo diagonal-neg"></div>
 		<div class="catalog active diagonal-neg">
+			<?php
+				$args = array('post_type' => 'cat_catalogos', 'nopaging' => true, 'orderby' => 'menu_order date', 'limit' => 1);
+				$catalogo = new WP_Query($args);
+				$slideTo = ''; $listItems = '';
+				$pdf = '';
+				while ($catalogo->have_posts()): $catalogo->the_post();
+					$images = unserialize(get_post_meta(get_the_ID(), 'cat_images', true));
+					$pdf = get_post_meta(get_the_ID(), 'wp_custom_attachment', true);
+					$title = get_the_title();
+					for ($i = 0, $l = count($images); $i < $l; $i++) {
+						$slideTo .= "<option data-slide-to='$i'>Pag " . ($i+1) . "</option>";
+						$listItems .= "<li data-image='$images[$i]' class='" . ($i == 0 ? "current" : "") . "'>";
+						$listItems .= "<img class='lazy' data-original='$images[$i]' alt='" . $title . " " . ($i+1) . "'/>";
+						$listItems .= "</li>";
+					} ?>
+			<?php endwhile; ?>
 			<div class="buttons">
 				<button type="button" class="prev"><span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span></button>
 				<button type="button" class="next"><span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></button>
 				<select class="slide-to">
-					<option data-slide-to="0">Pag 1</option>
-					<option data-slide-to="1">Pag 2-3</option>
-					<option data-slide-to="2">Pag 4-5</option>
-					<option data-slide-to="3">Pag 6-7</option>
-					<option data-slide-to="4">Pag 8-9</option>
-					<option data-slide-to="5">Pag 10-11</option>
-					<option data-slide-to="6">Pag 12-13</option>
-					<option data-slide-to="7">Pag 14-15</option>
-					<option data-slide-to="8">Pag 16-17</option>
-					<option data-slide-to="9">Pag 18-19</option>
-					<option data-slide-to="10">Pag 20-21</option>
-					<option data-slide-to="11">Pag 22-23</option>
-					<option data-slide-to="12">Pag 24-25</option>
-					<option data-slide-to="13">Pag 26-27</option>
+					<?php echo $slideTo; ?>
 				</select>
 				<button type="button" class="fullscreen"><span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span></button>
 			</div>
 			<ol class="content">
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_001.jpg" class="current">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_001.jpg" alt=" Image 1" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_002.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_002.jpg" alt=" Image 2" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_003.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_003.jpg" alt=" Image 3" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_004.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_004.jpg" alt=" Image 4" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_005.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_005.jpg" alt=" Image 5" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_006.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_006.jpg" alt=" Image 6" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_007.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_007.jpg" alt=" Image 7" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_008.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_008.jpg" alt=" Image 8" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_009.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_009.jpg" alt=" Image 9" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_010.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_010.jpg" alt=" Image 10" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_011.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_011.jpg" alt=" Image 11" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_012.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_012.jpg" alt=" Image 12" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_013.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_013.jpg" alt=" Image 13" />
-				</li>
-				<li data-image="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_014.jpg">
-					<img class="lazy" data-original="http://catalogothn.com.pe/images/catalogos/catalogo6/CATALOGO%20DEPORTIVOS_Page_014.jpg" alt=" Image 14" />
-				</li>
+				<?php echo $listItems; ?>
 			</ol>
 		</div>
 		<p class="diagonal-neg mt-10">*Para hacer <strong>zoom</strong>, pasar el puntero del mouse sobre la imagen.</p>
+		<a href="<?php echo $pdf['url']; ?>" class="btn btn-primary" download>Descargar catálogo</a>
 	</section>		
 <?php
 
