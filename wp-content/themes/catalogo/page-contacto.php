@@ -30,7 +30,7 @@ get_header(); ?>
     	<div class="diagonal-neg">
 	        <h2 class="text-center">CONTÁCTANOS</h2>
 	        <div class="triang-abajo"></div>
-	        <div class="row center">
+	        <div class="row center detalle-contacto">
                 <div class="col-md-5 col-xs-12">
                 	<p class="txt-blue"><strong>Horario de atención</strong></p>
 					<p>- Lunes a Viernes de <strong>9:00 AM a 7:00 PM</strong></p>

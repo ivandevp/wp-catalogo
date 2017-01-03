@@ -58,8 +58,8 @@ get_header(); ?>
 				<?php echo $listItems; ?>
 			</ol>
 		</div>
-		<p class="diagonal-neg mt-10">*Para hacer <strong>zoom</strong>, pasar el puntero del mouse sobre la imagen.</p>
-		<a href="<?php echo $pdf['url']; ?>" class="btn btn-primary" download>Descargar catálogo</a>
+		<p class="diagonal-neg mt-25">*Para hacer <strong>zoom</strong>, pasar el puntero del mouse sobre la imagen.</p>
+		<a href="<?php echo $pdf['url']; ?>" class="btn btn-primary mt-25 diagonal-neg" download>Descargar catálogo</a>
 	</section>		
 <?php
 
