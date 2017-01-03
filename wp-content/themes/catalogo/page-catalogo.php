@@ -37,6 +37,7 @@ get_header(); ?>
 				$pdf = '';
 				while ($catalogo->have_posts()): $catalogo->the_post();
 					$images = unserialize(get_post_meta(get_the_ID(), 'cat_images', true));
+					sort($images);
 					$pdf = get_post_meta(get_the_ID(), 'wp_custom_attachment', true);
 					$title = get_the_title();
 					for ($i = 0, $l = count($images); $i < $l; $i++) {
