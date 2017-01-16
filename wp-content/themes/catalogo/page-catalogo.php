@@ -26,6 +26,7 @@ get_header(); ?>
 		</div>
 	</section>
 	<section id="fs-container" class="fs-container"></section>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-upper.png" class="section-arrow-upper"/>
 	<section class="marcas diagonal-pos">		
 		<h2 class="text-center diagonal-neg">CATÁLOGO VIRTUAL</h2>
 		<div class="triang-abajo diagonal-neg"></div>
@@ -61,7 +62,8 @@ get_header(); ?>
 		</div>
 		<p class="diagonal-neg mt-25">*Para hacer <strong>zoom</strong>, pasar el puntero del mouse sobre la imagen.</p>
 		<a href="<?php echo $pdf['url']; ?>" class="btn btn-primary mt-25 diagonal-neg" download>Descargar catálogo</a>
-	</section>		
+	</section>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-down.png" class="section-arrow-down"/>
 <?php
 
 get_footer('catalogo'); ?>

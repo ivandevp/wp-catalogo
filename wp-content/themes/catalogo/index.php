@@ -40,6 +40,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-upper.png" class="section-arrow-upper"/>
     <section class="beneficios diagonal-pos">
     	<div class="diagonal-neg">
 	        <h2 class="text-center">BENEFICIOS</h2>
@@ -67,9 +68,10 @@ get_header(); ?>
 	        </div>
 	    </div>    
     </section>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-down.png" class="section-arrow-down"/>
     <section class="acerca-de diagonal-pos">
     	<div class="row margin-0">
-    		<div class="col-md-9 col-md-offset-3 transparencia">
+    		<div class="col-md-9 col-md-offset-3 col-xs-12 transparencia">
     			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-thn-blanco.png" style="float: right;" class="diagonal-neg"/>
     			<ul class="diagonal-neg">
     				<li>
@@ -89,6 +91,7 @@ get_header(); ?>
     		</div>
     	</div>
     </section>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-upper.png" class="section-arrow-upper"/>
    	<section class="marcas diagonal-pos">
    		<div class="diagonal-neg">
 	   		<h2 class="text-center mt-10">NUESTRAS MARCAS</h2>
@@ -110,7 +113,7 @@ get_header(); ?>
 								$image_url = get_the_post_thumbnail_url();
 							endif;
 							$image_alt = get_the_title(); ?>
-	                        <div class="col-sm-3">
+	                        <div class="col-sm-3 col-xs-3">
 	                        	<img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 	                        </div>
 	                    <?php if ($i % 4 === 0 || $i === $marcas->found_posts) : ?>
@@ -124,7 +127,7 @@ get_header(); ?>
 	        </div>
         </div>
     </section>
-
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-down.png" class="section-arrow-down"/>
 	<?php
 		$args = array('post_type' => 'cat_ads', 'nopaging' => true, 'orderby' => 'menu_order date');
 		$ads = new WP_Query($args); 
