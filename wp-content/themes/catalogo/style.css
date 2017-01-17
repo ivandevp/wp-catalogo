@@ -632,3 +632,14 @@ textarea {
         min-height: 220px;
     }
 }
+
+.marca-logo{
+    position: relative;
+    height: 110px;
+}
+
+.marca-logo img{
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-top: 120px;
+}

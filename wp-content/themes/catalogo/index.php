@@ -96,7 +96,7 @@ get_header(); ?>
    		<div class="diagonal-neg">
 	   		<h2 class="text-center mt-10">NUESTRAS MARCAS</h2>
 	   		<div class="triang-abajo"></div>
-	        <div id="carousel-marcas" class="carousel slide h-100">
+	        <div id="carousel-marcas" class="carousel slide">
 	            <div class="carousel-inner">
 	        	<?php
 					$args = array('post_type' => 'cat_marcas', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
@@ -113,7 +113,7 @@ get_header(); ?>
 								$image_url = get_the_post_thumbnail_url();
 							endif;
 							$image_alt = get_the_title(); ?>
-	                        <div class="col-sm-3 col-xs-3">
+	                        <div class="col-sm-3 col-xs-3 marca-logo">
 	                        	<img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 	                        </div>
 	                    <?php if ($i % 4 === 0 || $i === $marcas->found_posts) : ?>
