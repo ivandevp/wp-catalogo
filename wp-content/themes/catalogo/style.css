@@ -282,15 +282,15 @@ footer{
 .catalog {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    width: 100%;
+    width: 75%;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    min-height: 400px;
+    min-height: 480px;
 }
 .catalog li {
     position: absolute;
-    top: 400px;
+    top: 480px;
 }
 .catalog li.current {
     top: 0;
@@ -572,6 +572,7 @@ textarea {
         height: 2px;
     }
     .catalog{
+        width: 100%
         margin-top: 15px;
     }
     .content li {
@@ -629,9 +630,21 @@ textarea {
 
 @media (max-width: 400px) {
     .catalog {
+        width: 100%;
         min-height: 220px;
+        margin-top: 10px;
     }
 }
+
+@media (min-width: 401px) and (max-width: 550px) {
+    .catalog {
+        width: 100%;
+        margin: 20px auto 0;
+        min-height: 370px;
+    }
+}
+
+
 
 .marca-logo{
     position: relative;
