@@ -121,7 +121,7 @@ get_header(); ?>
     		</div>
     	</div>
     </section>
-   	<section class="marcas diagonal-pos">
+   	<section class="marcas marcas-index diagonal-pos">
    		<div class="diagonal-neg">
 	   		<h2 class="text-center mt-10">NUESTRAS MARCAS</h2>
 	        <div id="carousel-marcas" class="carousel slide">
