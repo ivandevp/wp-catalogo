@@ -1,69 +1,53 @@
 <?php
 
 get_header(); ?>
+<div class="sombra">
     <section class="banner">
-		<div id="banner-carousel" class="carousel slide" data-ride="carousel">
-			<?php
-				$args = array('post_type' => 'cat_banner', 'category_name' => 'catalogo', 'nopaging' => true, 'orderby' => 'menu_order date');
-				$banners = new WP_Query($args);
-				$listItems = ''; $slides = '';
-				while ($banners->have_posts()): $banners->the_post();
-					$i = $banners->current_post;
-					$listItems .= '<li ' . ($i == 0 ? 'class="active"' : '') . ' data-target="#banner-carousel" data-slide-to="' . $i . '"></li>'; 
-					$image_url = 'http://radioincorso.it/wp-content/uploads/2016/01/banner-placeholder.jpg';
-					if (has_post_thumbnail()):
-						$image_url = get_the_post_thumbnail_url();
-					endif;
-					$image_alt = get_the_title();
-					$slides .= '<div class="item' . ($i == 0 ? ' active"' : '"'). '><img src="' . $image_url . '" alt="' . $image_alt . '"/></div>'; ?>
-			<?php endwhile; ?>
-			<ol class="carousel-indicators">
-				<?php echo $listItems; ?>
-			</ol>
-			<div class="carousel-inner" role="listbox">
-				<?php echo $slides; ?>
-			</div>
-		</div>
+		<img class="img-responsive" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>"/>
 	</section>
 	<section id="fs-container" class="fs-container"></section>
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-upper.png" class="section-arrow-upper"/>
-	<section class="marcas diagonal-pos">		
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-banner.png" class="section-arrow-upper"/>
+	<section class="marcas diagonal-pos" style="    margin-top: -50px;">		
 		<h2 class="text-center diagonal-neg">CATÁLOGO VIRTUAL</h2>
 		<div class="triang-abajo diagonal-neg"></div>
-		<div class="catalog active diagonal-neg">
-			<?php
-				$args = array('post_type' => 'cat_catalogos', 'nopaging' => true, 'orderby' => 'menu_order date', 'limit' => 1);
-				$catalogo = new WP_Query($args);
-				$slideTo = ''; $listItems = '';
-				$pdf = '';
-				while ($catalogo->have_posts()): $catalogo->the_post();
-					$images = unserialize(get_post_meta(get_the_ID(), 'cat_images', true));
-					sort($images);
-					$pdf = get_post_meta(get_the_ID(), 'wp_custom_attachment', true);
-					$title = get_the_title();
-					for ($i = 0, $l = count($images); $i < $l; $i++) {
-						$slideTo .= "<option data-slide-to='$i'>Pag " . ($i+1) . "</option>";
-						$listItems .= "<li data-image='$images[$i]' class='" . ($i == 0 ? "current" : "") . "'>";
-						$listItems .= "<img class='lazy' data-original='$images[$i]' alt='" . $title . " " . ($i+1) . "'/>";
-						$listItems .= "</li>";
-					} ?>
-			<?php endwhile; ?>
-			<div class="buttons">
-				<button type="button" class="prev"><span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span></button>
-				<button type="button" class="next"><span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></button>
-				<select class="slide-to">
-					<?php echo $slideTo; ?>
-				</select>
-				<button type="button" class="fullscreen"><span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span></button>
-			</div>
-			<ol class="content">
-				<?php echo $listItems; ?>
-			</ol>
+		<div class="catalog active diagonal-neg text-center">
+			<div class="row">
+				<div id="carousel-catalogos" class="carousel slide">
+            	<div class="carousel-inner" style="width: 90%; margin: 4.5% auto 0;">
+	        	<?php
+					$args = array('post_type' => 'cat_catalogos', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
+					$catalogos = new WP_Query($args); 
+					while ($catalogos->have_posts()): $catalogos->the_post(); 
+	            		$i = $novedades->current_post + 1; 
+	            		if ($i % 2 === 0) : ?>
+			                <div class="item <?php if ($i === 1) echo "active"; ?> text-center">
+			                    <div class="row">
+			            <?php endif; ?>
+			            <?php 
+			            	$image_url = 'http://geniussys.com/img/placeholder/blogpost-placeholder-100x100.png';
+							if (has_post_thumbnail()):
+								$image_url = get_the_post_thumbnail_url();
+							endif;
+							$image_alt = get_the_title();
+							$catalog_url = get_the_content(); ?>
+	                        <div class="col-md-6 col-xs-12">
+	                        	<a href="<?php echo $catalog_url; ?>" target="_blank">
+	                        		<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
+	                        	</a>
+	                        </div>
+	                    <?php if ($i % 2 === 0 || $i === $catalogos->found_posts) : ?>
+			                    </div>
+			                </div>
+			            <?php endif; ?>
+				<?php endwhile; ?>
+	            </div>
+	        </div>
+	        </div>
 		</div>
-		<p class="diagonal-neg mt-25">*Para hacer <strong>zoom</strong>, pasar el puntero del mouse sobre la imagen.</p>
-		<a href="<?php echo $pdf['url']; ?>" class="btn btn-primary mt-25 diagonal-neg" download>Descargar catálogo</a>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
 	</section>
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-down.png" class="section-arrow-down"/>
+</div>
+
 <?php
 
 get_footer('catalogo'); ?>

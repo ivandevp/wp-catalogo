@@ -9,23 +9,31 @@ body{
     margin: 0;
     line-height: 1.2em;
     font-size: 16px;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
 }
 .triang-arriba {
     width: 0; 
     height: 0; 
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 20px solid #E6E6E6;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 22px solid #e4e4e5;
     margin: 0px auto 5px;
 }
-.triang-abajo {
-    width: 0; 
-    height: 0; 
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-top: 20px solid #2894C6;
-    margin: 5px auto 25px;
+@media (min-width: 1200px){
+    .container {
+        width: 1250px;
+        padding: 0;
+    }
+    .sombra{
+        -webkit-box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+        box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+    }
+}
+hr{
+    -webkit-box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
 }
 /*.diagonal-neg{
     -webkit-transform: skew(0deg,-2deg);
@@ -37,7 +45,6 @@ body{
     width: 100%;
     position: relative;
     z-index: 10;
-    margin-top: -55px;
 }
 .section-arrow-down{
     width: 100%;
@@ -72,6 +79,10 @@ body{
     margin-top: 25px;
 }
 
+iframe{
+    border: 5px solid #838383;
+}
+
 /*  TIPOGRAFÍA  */
 
 @font-face {
@@ -87,58 +98,78 @@ body{
     font-style: normal; 
 }
 h2{
-    font-size: 35px;
-    margin: 0;
-    color: #2894C6;
+    margin: 25px 0 30px;
+    color: #999999;
     text-transform: uppercase;
     font-family: 'adineue';
     letter-spacing: 0em;
+    font-size: 47px;
 }
 h4{
-    font-size: 20px;
+    font-size: 23px;
     color: #fff;
     text-transform: uppercase;
     font-family: 'adineue';
-    letter-spacing: 0em;
+    letter-spacing: 0.04em;
+    margin-bottom: 3px;
 }
 
 /*  BARRA DE NAVEGACIÓN  */
 
 .nav{
-    height: 80px;
+    height:133px;
 }
 .nav-custom{
-    background-color: #1E1E1E;
+    background-color: #000;
     color: #fff;
+}
+.container-fluid {
+    padding-right: 5px;
+}
+#menu-navigation {
+    padding: 0;
 }
 .nav-upper{
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    background-color: #1E1E1E;
+    background-color: #000;
+    margin-right: 10px;
 }
 .nav-upper li{
-    padding: 10px 8px;
-    font-size: 12px;
+    padding: 0;
+    font-size: 35px;
     font-family: 'apercu';
 }
-.navbar-thn{
-    background-color: #000;
+.nav-afiliate{
+    background-color: #00b0e9;
+    padding: 10px 15px;
+}
+.nav-upper li a {
+    padding: 15px 25px 10px;
+    text-transform: uppercase;
+    font-size: 17pt;
     color: #fff;
+    font-family: 'adineue';
+    display: inline-block;
+}
+.navbar-thn{
+    background-color: #fff;
+    color: #000;
     border-radius: 0;
-    height: 81px;
+    height: 135px;
     margin-bottom: 0;
 }
-.navbar-brand {
-    height: 78px;
-    padding: 8px 0;
+.navbar-brand img{
+    width: 430px;
+    margin-top: 23px;
 }
 .nav > li > a {
-    padding: 15px;
+    padding: 15px 20pt;
     text-transform: uppercase;
-    font-size: 20px;
-    color: #fff;
-    margin-top: 18px;
+    font-size: 18pt;
+    color: #000;
+    margin-top: 35pt;
     font-family: 'adineue';
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active {
@@ -150,43 +181,58 @@ h4{
 /*  SECCIÓN - BENEFICIOS */
 
 .beneficios{
-    padding: 2.5em 6.5em 2em;
+    padding: 5em 2em 1em;
     position: relative;
-    z-index: 1;
+    z-index: -1;
     background-color: #fff;
+    margin-top: -65px;
 }
 .contenido-beneficio img {
     height: 75px;
-    margin: 30px 0 20px;
+    margin: 5px 0 15px;
 }
 .contenido-beneficio p {
     font-size: 18px;
-    color: #333;
+    color: #707070; 
+    width: 75%; 
+    margin: 10px auto 0;
     line-height: 1.2em;
-    margin: 0 5px;
     letter-spacing: -0.05em;
 }
+.col-md-3.col-xs-6 {
+    border-right: 1px solid #dedede;
+    height: 200px;
+}
 
+    
 /*  SECCIÓN - ACERCA-DE */
 
 .acerca-de{
-    background-image: url('assets/images/img-rectangle.png');
-    background-position: -23% 50%;
+    background-image: url('assets/images/fondo-quienes.png');
+    background-repeat: no-repeat;
     z-index: 2;
     position: relative;
-    margin-top: -65px;
 }
 .transparencia{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2290cb+0,0064a0+100&0.85+0,1+100 */
-    background: -moz-linear-gradient(left, rgba(34,144,203,0.95) 0%, rgba(0,100,160,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(34,144,203,0.95) 0%,rgba(0,100,160,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(34,144,203,0.95) 0%,rgba(0,100,160,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d92290cb', endColorstr='#0064a0',GradientType=1 ); /* IE6-9 */
-    padding: 7em 2.5em 3em 0;
     z-index: 1;
+    margin-top: 5.5em;
+    padding: 0 50px 0 5px;
+    height: 550px;
+}
+.transparencia ul{
+    padding: 0;
+    transform: skew(8deg);
+}
+.transparencia p {
+    margin: 0 0 10px;
+    font-style: italic;
+}
+.transparencia h4 {
+    font-style: italic;
 }
 .transparencia img{
-    margin-top: -3em;
+    margin-top: -55px;
+    margin-right: -15px;
 }
 .acerca-de li{
     list-style: none;
@@ -195,14 +241,22 @@ h4{
     text-align: justify;
     
 }
+.list-flecha{
+    position: relative;
+}
+.list-flecha img{
+    position: absolute;
+    left: -40px;
+    bottom: -5px;
+    height: 35px;
+}
 
 /*  PÁGINAS: INDEX - INTRANET - CONTACTO || SECCIÓN: MARCAS */
 
 .contacto, .intranet, .marcas{    
-    padding: 80px 6.5em 4em;
+    padding: 7em 2em;
     position: relative;
-    margin-top: -30px;
-    margin-bottom: -2.3em;
+    margin-top: -110px;
     z-index: 1;
     background-color: #fff;
 }
@@ -214,14 +268,19 @@ h4{
 .map p {
     margin: 15px 0 0;
     color: #F58231;
-    font-size: 20px;
+    font-size: 20pt;
+    font-weight: bold;
 }
 .detalle-contacto{
     background: url('assets/images/img-contacto.png');
     background-position: 115% 0;
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin: 30px 0 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px 0 60px;
+    -webkit-box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    padding: 50px 40px 35px;
 }
 
 /*  FOOTER  */
@@ -229,8 +288,8 @@ h4{
 footer{
     background-color: #000;
     color: #fff;
-    padding: 5em 0 1em;
-    margin-top: -65px;
+    padding: 1.1em 0 .8em;
+    margin-top: 45px;
 }
 
 /*   ADICIONALES   */
@@ -239,17 +298,17 @@ footer{
     bottom: 10px;
 }
 .carousel-indicators .active {
-    width: 45px;
-    height: 7px;
-    margin: 1px;
+    width: 70px;
+    height: 5px;
+    margin: 1px 3px;
     background-color: #2894c6;
     border: 1px solid #2894c6;
 }
 .carousel-indicators li {
     display: inline-block;
-    width: 45px;
-    height: 7px;
-    margin: 1px;
+    width: 70px;
+    height: 5px;
+    margin: 1px 3px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #000\9;
@@ -458,23 +517,30 @@ textarea {
     }
     .col-md-3.col-xs-6 {
         padding: 0;
+        border-right: 0;
+        height: 130px;
     }
     .navbar-brand img {
-        height: 50px;
+        width: 200px;
+        margin-top: 5px;
     }
     .navbar-brand {
-        height: 60px;
-        padding: 7px 0;
+        margin-top: 0px;
     }
     .navbar-thn {
         height: 65px;
     }
+    .nav-upper li a {
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 10pt;
+    }
     .navbar-toggle {
-        border: 1px solid #fff;
+        border: 1px solid #000;
         margin-top: 15px;
     }
     .icon-bar {
-        background-color: #fff;
+        background-color: #000;
     }
     .nav-upper {
         text-align: right;
@@ -495,7 +561,7 @@ textarea {
     #menu-navigation {
         position: relative;
         z-index: 1000;
-        background-color: #000;
+        background-color: #fff;
     }
     .nav > li > a {
         padding: 10px 20px;
@@ -503,32 +569,44 @@ textarea {
         margin-top: 0px;
     }
     .navbar-nav {
-        margin: 12px;
+        margin: 0;
     }
     h2 {
-        font-size: 22px;
+        font-size: 27px;
+        margin: 40px 0 15px;
     }
     h3 {
         font-size: 20px;
     }
     h4 {
-    font-size: 16px;
+        font-size: 16px;
+    }
+    hr{
+        display: none;
     }
     .beneficios {
-        padding: 35px 1em 4em;
+        padding: 60px 0em 2em;
+    }
+    .col-xs-12{
+        border-right: 0 !important;
     }
     .marcas{
-        padding: 50px 1em 2em;
+        width: 100%;
+        margin: 0;
+        padding: 2em;
+    }
+    .marcas img{
+        width: 100%;
     }
     .contenido-beneficio img {
         height: 40px;
-        margin: 20px 0 10px;
+        margin: 5px 0 10px;
     }
     .contenido-beneficio p {
         font-size: 12px;
         line-height: 1.1em;
-        margin: 0 3px;
-        letter-spacing: -0.02em;
+        margin: 10px auto 0;
+        width: 90%;
     }
     .triang-abajo {
         border-left: 25px solid transparent;
@@ -537,18 +615,27 @@ textarea {
         margin: 2px auto 0;
     }
     .triang-arriba {
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-bottom: 7px solid #E6E6E6;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 10px solid #e4e4e5;
+    }
+    .acerca-de{
+        background-image: none;
+        background-color: #00b0e9;
     }
     .transparencia img {
         display: none;
     }
+    .transparencia p, .transparencia h4{
+        font-style: normal;
+    }
     .transparencia ul {
         padding: 0;
+        transform: none;
     }
     .transparencia {
-        padding: 2em 1.5em 1em;
+        padding: 2em;
+        margin: 0em 0 1em;
     }
     footer {
         padding: 4em 0 1em;

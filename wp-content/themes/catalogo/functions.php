@@ -91,6 +91,17 @@ function create_post_type() {
                 'singular_name' => __('Catálogo')
             ),
             'public' => true,
+            'supports' => array ('title', 'editor', 'page-attributes', 'thumbnail'),
+        )
+    );
+    
+    register_post_type('cat_novedades',
+        array(
+            'labels' => array(
+                'name' => __('Novedades'),
+                'singular_name' => __('Novedad')
+            ),
+            'public' => true,
             'supports' => array ('title', 'page-attributes', 'thumbnail'),
         )
     );
@@ -101,13 +112,3 @@ function update_edit_form() {
     echo ' enctype="multipart/form-data"';
 } // end update_edit_form
 add_action('post_edit_form_tag', 'update_edit_form');
-
-function call_uploaders() {
-    new PDFUploader();
-    new MultiImageUploader(['cat_catalogos']);
-}
-
-if (is_admin()) {
-    add_action('load-post.php', 'call_uploaders');
-    add_action('load-post-new.php', 'call_uploaders');
-}

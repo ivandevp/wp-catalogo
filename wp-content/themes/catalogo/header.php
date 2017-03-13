@@ -17,7 +17,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<?php wp_enqueue_style( 'style', get_stylesheet_uri() ); ?>
+	<?php wp_enqueue_style( '', get_stylesheet_uri() ); ?>
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -28,8 +28,8 @@
 	<nav class="nav-custom">
 		<div class="container">
 			<ul class="navbar-nav navbar-right nav-upper">
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-telefono2.png" height="12"><strong> CENTRAL: </strong>418-3838</li>
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-telefono2.png" height="12"><strong> ANEXOS:</strong> Provincias(12-13-15); Lima: (18 y 16-21)</li>
+				<li><a href="">INTRANET</a></li>
+				<li><a href="https://wp-catalogo-astephannie.c9users.io/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
 		</div>
 	</nav>
