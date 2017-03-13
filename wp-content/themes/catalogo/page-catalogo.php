@@ -7,13 +7,13 @@ get_header(); ?>
 	</section>
 	<section id="fs-container" class="fs-container"></section>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-banner.png" class="section-arrow-upper"/>
-	<section class="marcas diagonal-pos" style="    margin-top: -50px;">		
+	<section class="marcas diagonal-pos">		
 		<h2 class="text-center diagonal-neg">CATÁLOGO VIRTUAL</h2>
 		<div class="triang-abajo diagonal-neg"></div>
 		<div class="catalog active diagonal-neg text-center">
 			<div class="row">
 				<div id="carousel-catalogos" class="carousel slide">
-            	<div class="carousel-inner" style="width: 90%; margin: 4.5% auto 0;">
+            	<div class="carousel-inner">
 	        	<?php
 					$args = array('post_type' => 'cat_catalogos', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
 					$catalogos = new WP_Query($args); 

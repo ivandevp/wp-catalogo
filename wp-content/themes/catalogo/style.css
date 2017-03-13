@@ -5,11 +5,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-image: url('assets/images/bg-general.png');
-    font-family: 'apercu';
+    font-family: 'Montserrat';
     margin: 0;
     line-height: 1.2em;
-    font-size: 16px;
-    letter-spacing: -0.04em;
+    font-size: 15px;
 }
 .triang-arriba {
     width: 0; 
@@ -83,35 +82,21 @@ iframe{
     border: 5px solid #838383;
 }
 
-/*  TIPOGRAFÍA  */
-
-@font-face {
-    font-family: 'adineue';
-    src: url('assets/fonts/adineue.otf');
-    font-weight: normal;
-    font-style: normal; 
-}
-@font-face {
-    font-family: 'apercu';
-    src: url('assets/fonts/apercu.otf');
-    font-weight: normal;
-    font-style: normal; 
-}
 h2{
     margin: 25px 0 30px;
     color: #999999;
     text-transform: uppercase;
-    font-family: 'adineue';
-    letter-spacing: 0em;
+    font-family: 'Montserrat';
     font-size: 47px;
+    font-weight: 700;
 }
 h4{
-    font-size: 23px;
+    font-size: 21px;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'adineue';
-    letter-spacing: 0.04em;
-    margin-bottom: 3px;
+    font-family: 'Montserrat';
+    margin-bottom: 7px;
+    font-weight: 800;
 }
 
 /*  BARRA DE NAVEGACIÓN  */
@@ -139,7 +124,7 @@ h4{
 .nav-upper li{
     padding: 0;
     font-size: 35px;
-    font-family: 'apercu';
+    font-family: 'Montserrat';
 }
 .nav-afiliate{
     background-color: #00b0e9;
@@ -150,8 +135,9 @@ h4{
     text-transform: uppercase;
     font-size: 17pt;
     color: #fff;
-    font-family: 'adineue';
+    font-family: 'Montserrat';
     display: inline-block;
+    font-weight: 600;
 }
 .navbar-thn{
     background-color: #fff;
@@ -165,12 +151,13 @@ h4{
     margin-top: 23px;
 }
 .nav > li > a {
-    padding: 15px 20pt;
+    padding: 15px 20px;
     text-transform: uppercase;
     font-size: 18pt;
     color: #000;
     margin-top: 35pt;
-    font-family: 'adineue';
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active {
     text-decoration: none;
@@ -192,16 +179,16 @@ h4{
     margin: 5px 0 15px;
 }
 .contenido-beneficio p {
-    font-size: 18px;
-    color: #707070; 
-    width: 75%; 
+    font-size: 17px;
+    color: #707070;
+    width: 85%;
     margin: 10px auto 0;
-    line-height: 1.2em;
-    letter-spacing: -0.05em;
+    line-height: 1.3em;
 }
 .col-md-3.col-xs-6 {
     border-right: 1px solid #dedede;
-    height: 200px;
+    height: 230px;
+    padding: 15px 0 0;
 }
 
     
@@ -254,9 +241,9 @@ h4{
 /*  PÁGINAS: INDEX - INTRANET - CONTACTO || SECCIÓN: MARCAS */
 
 .contacto, .intranet, .marcas{    
-    padding: 7em 2em;
+    padding: 5em;
     position: relative;
-    margin-top: -110px;
+    margin-top: -60px;
     z-index: 1;
     background-color: #fff;
 }
@@ -294,6 +281,10 @@ footer{
 
 /*   ADICIONALES   */
 
+.marcas .carousel-inner{
+    width: 90%; 
+    margin: 4.5% auto 0;
+}
 .carousel-indicators {
     bottom: 10px;
 }
@@ -339,55 +330,12 @@ footer{
 /* CATALOGO */
 
 .catalog {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat';
     font-size: 14px;
-    width: 75%;
+    width: 90%;
     position: relative;
     margin: 0 auto;
-    overflow: hidden;
-    min-height: 480px;
-}
-.catalog li {
-    position: absolute;
-    top: 480px;
-}
-.catalog li.current {
-    top: 0;
-}
-.catalog .buttons {
-    height: 10%;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 25px;
-}
-.buttons button {
-    padding: 4px 10px;
-    color: #000;
-    background: #fff;
-    border: none;
-}
-.slide-to {
-    font-size: 15px;
-    vertical-align: top;
-}
-.content {
-    margin: 0;
-    padding: 0;
-}
-.content li {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 88%;
-    list-style: none;
-    text-align: center;
-}
-.content li .lazy {
-    width: 100%;
-    height: 100%;
+    padding: 0 0 5em;
 }
 
 /*  AFILIATE  */
@@ -395,109 +343,37 @@ footer{
 .afiliate{
     background-color: #fff;
     padding-top: 2em;
-}
-
-/* FULLSCREEN PLUGIN */
-
-#jquery-fullsizable {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 999;
-}
-#jquery-fullsizable.fullsized_spinner {
-  background-image: url(data:image/gif;base64,R0lGODlhEAAQAPIAAAAAAP///zw8PLy8vP///5ycnHx8fGxsbCH+GkNyZWF0ZWQgd2l0aCBhamF4bG9hZC5pbmZvACH5BAAKAAAAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQACgABACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkEAAoAAgAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkEAAoAAwAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkEAAoABAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQACgAFACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQACgAGACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAAKAAcALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-#jquery-fullsizable #fullsized_image_holder img {
-  display: block;
-  margin: 0 auto;
-}
-
-#fullsized_go_prev, #fullsized_go_next {
-  position: absolute;
-  top: 40%;
-  display: block;
-  width: 32px;
-  height: 126px;
-}
-
-#fullsized_go_prev {
-  left: 0;
-  background: url('assets/images/fs-icons.png');
-}
-#fullsized_go_prev:hover {
-    background-position: 0 -126px;
-}
-#fullsized_go_next {
-  right: 0;
-  background: url('assets/images/fs-icons.png') -32px 0;
-}
-#fullsized_go_next:hover {
-  background-position: -32px -126px;
-}
-#fullsized_close, #fullsized_fullscreen {
-  position: absolute;
-  top: 0;
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-#fullsized_close {
-  right: 0;
-  background: url('assets/images/fs-icons.png') -64px 0;
-}
-#fullsized_close:hover {
-  background-position: -64px -32px;
-}
-#fullsized_fullscreen {
-  right: 40px;
-  background: url('assets/images/fs-icons.png') -96px 0;
-}
-#fullsized_fullscreen:hover {
-  background-position: -96px -32px;
-}
-:fullscreen #fullsized_fullscreen { background-position: -96px -64px; &:hover {background-position: -96px -96px;} }
-:-webkit-full-screen #fullsized_fullscreen { background-position: -96px -64px; &:hover {background-position: -96px -96px;} }
-:-moz-full-screen #fullsized_fullscreen { background-position: -96px -64px; &:hover {background-position: -96px -96px;} }
-
-a#fullsized_fullscreen, a#fullsized_close {
-    top: 40px;
-}
-#nf-form-1-cont {
-    padding: 25px 40px;
-    background: #fff;
-}
-.nf-field-container, #ninja_forms_required_items {
-    margin-bottom: 10px !important;
-}
-.nf-form-fields-required {
-    padding-bottom: 15px;
-}
-.nf-element {
-    padding: 7px;
-    font-size: 14px !important;
-}
-#nf-field-4 {
-    background-color: #F58231;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    width: 100%;
-    font-size: 18px !important;
-    text-transform: uppercase;
-    padding: 15px 0;
-    margin-top: 15px;
+    border-top: 1px solid #80808033;
 }
 textarea {
     resize: none;
     padding: 13px;
+}
+.nf-before-form-content {
+    margin-bottom: 25px;
+}
+.ninja-forms-field, .nf-error .ninja-forms-field {
+    border: 1px solid #2595ca !important;
+    border-radius: 0;
+    padding: 10px;
+}
+.ninja-forms-req-symbol, .nf-error-msg {
+    color: #E80000;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.nf-field-container, #ninja_forms_required_items {
+    margin-bottom: 15px !important;
+}
+.field-wrap input[type="submit"], .field-wrap input[type="button"], .field-wrap button {
+    width: 100% !important;
+    background-color: #F58231;
+    color: #fff;
+    border: none !important;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 /*  MOBILE  */
@@ -507,7 +383,6 @@ textarea {
         background: none;
         line-height: 1.2em;
         font-size: 13px;
-        letter-spacing: -0.05em;
     }
     .container {
         padding: 0;
@@ -518,7 +393,7 @@ textarea {
     .col-md-3.col-xs-6 {
         padding: 0;
         border-right: 0;
-        height: 130px;
+        height: 145px;
     }
     .navbar-brand img {
         width: 200px;
@@ -604,8 +479,8 @@ textarea {
     }
     .contenido-beneficio p {
         font-size: 12px;
-        line-height: 1.1em;
-        margin: 10px auto 0;
+        line-height: 1.2em;
+        margin: 5px auto 0;
         width: 90%;
     }
     .triang-abajo {
@@ -635,11 +510,13 @@ textarea {
     }
     .transparencia {
         padding: 2em;
-        margin: 0em 0 1em;
+        margin: 1em 0 .5em;
+        height: auto;
     }
     footer {
-        padding: 4em 0 1em;
+        padding: 3em 0 2em;
         font-size: 10px;
+        margin-top: 20px;
     }
     .h-100 {
         height: 70px;
@@ -711,6 +588,21 @@ textarea {
         font-size: 15px !important;
         padding: 10px 0;
         margin-top: 10px;
+    }
+    .marca-logo{
+        border-right: 0 !important;
+    }
+    .marcas .carousel-inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .carousel-control{
+        display: none;
+    }
+    .marca-logo {
+        position: relative;
+        height: 90px;
+        margin-top: -30px;
     }
 }
 

@@ -6,7 +6,7 @@ get_header(); ?>
 		<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>"/>
 	</section>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-banner.png" class="section-arrow-upper"/>
-	<section class="contacto diagonal-pos" style="    margin-top: -50px;">
+	<section class="contacto diagonal-pos">
     	<div class="diagonal-neg">
 	        <h2 class="text-center" style="font-size: 40px;">CONTÁCTANOS</h2>
 	        <div class="triang-abajo"></div>

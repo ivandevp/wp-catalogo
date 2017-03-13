@@ -125,7 +125,7 @@ get_header(); ?>
    		<div class="diagonal-neg">
 	   		<h2 class="text-center mt-10">NUESTRAS MARCAS</h2>
 	        <div id="carousel-marcas" class="carousel slide">
-	            <div class="carousel-inner" style="width: 90%; margin: 4.5% auto 0;">
+	            <div class="carousel-inner">
 	        	<?php
 					$args = array('post_type' => 'cat_marcas', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
 					$marcas = new WP_Query($args); 
@@ -141,7 +141,7 @@ get_header(); ?>
 								$image_url = get_the_post_thumbnail_url();
 							endif;
 							$image_alt = get_the_title(); ?>
-	                        <div class="col-sm-3 col-xs-3 marca-logo" style="    border-right: 1px solid #b8babc;">
+	                        <div class="col-sm-3 col-xs-3 marca-logo" style="border-right: 1px solid #b8babc;">
 	                        	<img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 	                        </div>
 	                    <?php if ($i % 4 === 0 || $i === $marcas->found_posts) : ?>

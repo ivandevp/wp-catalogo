@@ -16,6 +16,7 @@
 	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet"> 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<?php wp_enqueue_style( '', get_stylesheet_uri() ); ?>
 	<!--[if lt IE 9]>
