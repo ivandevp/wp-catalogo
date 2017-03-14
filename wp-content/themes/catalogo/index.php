@@ -19,7 +19,7 @@ get_header(); ?>
 	<section class="banner">
 		<div id="banner-carousel" class="carousel slide" data-ride="carousel">
 			<?php
-				$args = array('post_type' => 'cat_banner', 'category_name' => 'inicio', 'nopaging' => true, 'orderby' => 'menu_order date');
+				$args = array('post_type' => 'cat_banner', 'category_name' => 'inicio', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
 				$banners = new WP_Query($args);
 				$listItems = ''; $slides = '';
 				while ($banners->have_posts()): $banners->the_post();
