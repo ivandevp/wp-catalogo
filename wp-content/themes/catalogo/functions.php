@@ -29,14 +29,14 @@ register_nav_menus( array(
 	'primary' => __( 'Primary Menu', 'catalogo' ),
 ) );
 
-function add_active_class_to_nav_menu($classes) {
-    if (in_array('current-menu-item', $classes, true) || in_array('current_page_item', $classes, true)) {
-        $classes = array_diff($classes, array('current-menu-item', 'current_page_item', 'active'));
-        $classes[] = 'active';
+function special_nav_class ($classes, $item) {
+    if (in_array('current-menu-item', $classes) ){
+        $classes[] = 'active ';
     }
     return $classes;
 }
-add_filter('nav_menu_css_class', 'add_active_class_to_nav_menu');
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function create_post_type() {
     register_post_type('cat_banner',

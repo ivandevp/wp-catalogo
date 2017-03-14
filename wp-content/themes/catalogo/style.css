@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url('assets/images/bg-general.png');
+    background-image: url('assets/images/bg-general-blur.jpg');
     font-family: 'Montserrat';
     margin: 0;
     line-height: 1.2em;
@@ -145,6 +145,8 @@ h4{
     border-radius: 0;
     height: 135px;
     margin-bottom: 0;
+    box-shadow: 0 2px 15px -2px grey;
+    z-index: 2;
 }
 .navbar-brand img{
     width: 430px;
@@ -190,7 +192,9 @@ h4{
     height: 230px;
     padding: 15px 0 0;
 }
-
+.col-md-3.col-xs-6:nth-child(4) {
+    border-right: none;
+}
     
 /*  SECCIÓN - ACERCA-DE */
 
@@ -287,7 +291,7 @@ footer{
 
 .marcas .carousel-inner{
     width: 90%; 
-    margin: 4.5% auto 0;
+    margin: 0 auto;
 }
 .carousel-indicators {
     bottom: 10px;

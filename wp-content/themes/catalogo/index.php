@@ -15,7 +15,6 @@
  */
 
 get_header(); ?>
-	<div class="sombra">
 	<section class="banner">
 		<div id="banner-carousel" class="carousel slide" data-ride="carousel">
 			<?php
@@ -69,7 +68,7 @@ get_header(); ?>
 	        <h2 class="text-center">NOVEDADES</h2>
 	        <div class="row">
 	        	<div id="carousel-novedades" class="carousel slide">
-	            	<div class="carousel-inner" style="width: 90%; margin: 4.5% auto 0;">
+	            	<div class="carousel-inner" style="width: 95%; margin: 0 auto;">
 		        	<?php
 						$args = array('post_type' => 'cat_novedades', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
 						$novedades = new WP_Query($args); 
@@ -154,9 +153,7 @@ get_header(); ?>
 	            <a class="right carousel-control" href="#carousel-marcas" data-slide="next" style="background: transparent; padding-top: 40px; width: 6%;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha.png"/></a>
 	        </div>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0; box-shadow: inset 0 -10px 20px -10px rgba(0, 0, 0, 0.53);">
     </section>
-    
-    </div>
 
 <?php get_footer(); ?>
