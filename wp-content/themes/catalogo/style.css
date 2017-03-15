@@ -18,6 +18,8 @@ body{
     border-bottom: 22px solid #e4e4e5;
     margin: 0px auto 5px;
 }
+li.active > a { color: #3d7bb9 !important; }
+
 @media (min-width: 1200px){
     .container {
         width: 1250px;
