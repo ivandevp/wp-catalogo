@@ -18,7 +18,7 @@ get_header(); ?>
 						$catalogos = new WP_Query($args); 
 						while ($catalogos->have_posts()): $catalogos->the_post(); 
 		            		$i = $novedades->current_post + 1; 
-		            		if ($i % 2 === 0) : ?>
+		            		if ($i > 1 && $i % 2 === 0) : ?>
 				                <div class="item <?php if ($i === 1) echo "active"; ?> text-center">
 				                    <div class="row">
 				            <?php endif; ?>
@@ -34,7 +34,7 @@ get_header(); ?>
 		                        		<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 		                        	</a>
 		                        </div>
-		                    <?php if ($i % 2 === 0 || $i === $catalogos->found_posts) : ?>
+		                    <?php if ($i > 1 && ($i % 2 === 0 || $i === $catalogos->found_posts)) : ?>
 				                    </div>
 				                </div>
 				            <?php endif; ?>
