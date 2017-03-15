@@ -1,7 +1,6 @@
 <?php
 
 get_header(); ?>
-<div class="sombra">
     <section class="banner">
 		<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>"/>
 	</section>
@@ -53,7 +52,6 @@ get_header(); ?>
 	    </div>    
 	    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
     </section>
-</div>
 <?php
 
 get_footer(); ?>

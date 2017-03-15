@@ -84,7 +84,7 @@ get_header(); ?>
 									$image_url = get_the_post_thumbnail_url();
 								endif;
 								$image_alt = get_the_title(); ?>
-		                        <div class="col-md-6 col-xs-12" style="border-right: 1px solid #b8babc;">
+		                        <div class="col-md-6 col-xs-12">
 		                        	<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 		                        </div>
 		                    <?php if ($i % 2 === 0 || $i === $novedades->found_posts) : ?>
@@ -153,7 +153,7 @@ get_header(); ?>
 	            <a class="right carousel-control" href="#carousel-marcas" data-slide="next" style="background: transparent; padding-top: 40px; width: 6%;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha.png"/></a>
 	        </div>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0; box-shadow: inset 0 -10px 20px -10px rgba(0, 0, 0, 0.53);">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
     </section>
 
 <?php get_footer(); ?>

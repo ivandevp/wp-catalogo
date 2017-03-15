@@ -1,7 +1,8 @@
 
         
     </div>
-    <footer
+    <div style="box-shadow: inset 0 -14px 35px -13px rgba(0, 0, 0, 0.53); height: 30px; margin-top: -30px; position: relative; z-index: 1;"></div>
+    <footer>
         <div class="text-center">
             <span>CENTRAL: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-telefono2.png" style="height: 23px; margin-top: -8px;"><strong style="font-size: 23px; padding-right: 10px;">418-3838</strong></span>
             <span> ANEXOS: Provincias(12-13-15); Lima: (18 y 16-21)</span>
