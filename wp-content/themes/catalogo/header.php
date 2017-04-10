@@ -30,7 +30,7 @@
 		<div class="container">
 			<ul class="navbar-nav navbar-right nav-upper">
 				<li><a href="">INTRANET</a></li>
-				<li><a href="https://wp-catalogo-astephannie.c9users.io/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
+				<li><a href="<?php get_site_url(); ?>/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
 		</div>
 	</nav>
