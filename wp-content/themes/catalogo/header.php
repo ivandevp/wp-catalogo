@@ -28,7 +28,7 @@
 <body <?php body_class(); ?>>
 	<nav class="nav-custom">
 		<div class="container">
-			<ul class="navbar-nav navbar-right nav-upper">
+			<ul class="navbar-nav navbar-right nav-upper" style="margin-right: 0;">
 				<li><a href="">INTRANET</a></li>
 				<li><a href="<?php get_site_url(); ?>/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
