@@ -29,7 +29,7 @@
 	<nav class="nav-custom">
 		<div class="container">
 			<ul class="navbar-nav navbar-right nav-upper" style="margin-right: 0;">
-				<li><a href="">INTRANET</a></li>
+				<li><a href="http://intranet.catalogothn.com.pe" target="_blank">INTRANET</a></li>
 				<li><a href="<?php get_site_url(); ?>/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
 		</div>
