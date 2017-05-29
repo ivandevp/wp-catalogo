@@ -83,6 +83,13 @@ iframe{
     border: 5px solid #838383;
 }
 
+.fecha{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #333;
+}
+
 h2{
     margin: 25px 0 30px;
     color: #999999;
@@ -132,13 +139,13 @@ h4{
     padding: 10px 15px;
 }
 .nav-upper li a {
-    padding: 12px 32px;
+    padding: 8px 20px;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 11pt;
     color: #fff;
     font-family: 'Montserrat';
     display: inline-block;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
 }
 .navbar-thn{
@@ -157,7 +164,7 @@ h4{
 .nav > li > a {
     padding: 5px 20px;
     text-transform: uppercase;
-    font-size: 18pt;
+    font-size: 15pt;
     color: #000;
     margin-top: 16pt;
     font-family: 'Montserrat';
@@ -645,4 +652,11 @@ textarea {
     padding-top: 0;
     height: 80px;
     margin-top: 15px;
+}
+
+.reclamaciones h3 {
+    font-size: 20px;
+}
+.reclamaciones label {
+    font-weight: 500 !important;
 }
