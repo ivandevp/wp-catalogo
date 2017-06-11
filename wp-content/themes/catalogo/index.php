@@ -84,8 +84,8 @@ get_header(); ?>
 									$image_url = get_the_post_thumbnail_url();
 								endif;
 								$image_alt = get_the_title(); ?>
-		                        <div class="col-md-6 col-xs-12">
-		                        	<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
+		                        <div class="col-md-6 col-xs-12 m-0">
+		                        	<img class="img-responsive m-0" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 		                        </div>
 		                    <?php if ($i % 2 === 0 || $i === $novedades->found_posts) : ?>
 				                    </div>
