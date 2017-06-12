@@ -47,5 +47,5 @@
 	})
 	setTimeout(function () {
 		$(current).zoom();
-	}, 1000);
+	}, 3000);
 })();

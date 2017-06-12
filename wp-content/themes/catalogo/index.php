@@ -68,7 +68,7 @@ get_header(); ?>
 	        <h2 class="text-center">NOVEDADES</h2>
 	        <div class="row">
 	        	<div id="carousel-novedades" class="carousel slide">
-	            	<div class="carousel-inner" style="width: 95%; margin: 0 auto;">
+	            	<div class="carousel-inner">
 		        	<?php
 						$args = array('post_type' => 'cat_novedades', 'nopaging' => true, 'orderby' => 'menu_order date', 'order' => 'ASC');
 						$novedades = new WP_Query($args); 
@@ -84,15 +84,24 @@ get_header(); ?>
 									$image_url = get_the_post_thumbnail_url();
 								endif;
 								$image_alt = get_the_title(); ?>
-		                        <div class="col-md-6 col-xs-12 m-0">
-		                        	<img class="img-responsive m-0" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
+		                        <div class="col-md-6 col-xs-12" style="padding:0;">
+		                        	<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" style="padding:0;" />
 		                        </div>
 		                    <?php if ($i % 2 === 0 || $i === $novedades->found_posts) : ?>
 				                    </div>
 				                </div>
+					
 				            <?php endif; ?>
 					<?php endwhile; ?>
 		            </div>
+		            <div class="carousel-arrow">
+	                    <a data-slide="prev" href="#carousel-novedades" class="left carousel-control">
+	                    	<span class="glyphicon glyphicon-chevron-left"></span>
+	                    </a>
+	                    <a data-slide="next" href="#carousel-novedades" class="right carousel-control">
+	                    	<span class="glyphicon glyphicon-chevron-right"></span>
+	                    </a>
+	                </div>
 		        </div>
 	        </div>
 	        <hr style="box-shadow: none; margin: 30px 0; background-color: #dedede;">
@@ -149,8 +158,8 @@ get_header(); ?>
 			            <?php endif; ?>
 				<?php endwhile; ?>
 	            </div>
-	            <a class="left carousel-control" href="#carousel-marcas" data-slide="prev" style="background: transparent; padding-top: 40px; width: 6%;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha_izq.png"/></a>
-	            <a class="right carousel-control" href="#carousel-marcas" data-slide="next" style="background: transparent; padding-top: 40px; width: 6%;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha.png"/></a>
+	            <a class="left carousel-control" href="#carousel-marcas" data-slide="prev" style="background: transparent; padding-top: 40px; width: 6%; background-color: transparent !important;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha_izq.png"/></a>
+	            <a class="right carousel-control" href="#carousel-marcas" data-slide="next" style="background: transparent; padding-top: 40px; width: 6%; background-color: transparent !important;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_flecha.png"/></a>
 	        </div>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">

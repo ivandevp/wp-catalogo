@@ -660,3 +660,9 @@ textarea {
 .reclamaciones label {
     font-weight: 500 !important;
 }
+
+.carousel-control{
+    width: 40px;
+    background-image: none !important;
+    background-color: rgba(0,0,0,.3) !important;
+}

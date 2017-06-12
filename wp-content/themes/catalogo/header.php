@@ -16,7 +16,7 @@
 	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<?php wp_enqueue_style( '', get_stylesheet_uri() ); ?>
 	<!--[if lt IE 9]>
@@ -29,7 +29,7 @@
 	<nav class="nav-custom">
 		<div class="container">
 			<ul class="navbar-nav navbar-right nav-upper" style="margin-right: 0;">
-				<li><a href="<?php get_site_url(); ?>/reclamaciones/">LIBRO DE RECLAMACIONES</a></li>
+				<li><a href="<?php get_site_url(); ?>/reclamaciones/" style="font-weight: 500; border-right: 1px solid #fff;">LIBRO DE RECLAMACIONES</a></li>
 				<li><a href="http://intranet.catalogothn.com.pe" target="_blank">INTRANET</a></li>
 				<li><a href="<?php get_site_url(); ?>/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
