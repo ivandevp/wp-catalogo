@@ -23,7 +23,7 @@
 	        var $ultimoCatalogo = $(".catalogo").first();
 	        var urlValidation = 'http://181.65.237.229/thn/api/receipt/';
 	        $ultimoCatalogo.click(function (e) {
-	            var redirection = $(this).attr("href");
+	            var redirection = $(this).find("a").attr("href");
 	            e.preventDefault();
 	            swal({
                   title: "Validación de Catálogo",
