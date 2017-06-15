@@ -29,7 +29,7 @@ get_header(); ?>
 								endif;
 								$image_alt = get_the_title();
 								$catalog_url = get_the_content(); ?>
-		                        <div class="col-md-6 col-xs-12" style="padding-top: 2em !important;">
+		                        <div class="col-md-6 col-xs-12 catalogo" style="padding-top: 2em !important;">
 		                        	<a href="<?php echo $catalog_url; ?>" target="_blank">
 		                        		<img class="img-responsive" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"/>
 		                        	</a>
