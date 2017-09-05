@@ -1,5 +1,5 @@
 var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUrl) {
-    var urlValidation = 'http://181.65.237.229/thn/api/receipt/';
+    var urlValidation = 'http://170.0.82.214/catalogos/api/receipt/';
     swal({
             title: "Validación de Catálogo",
             text: "Ingresa el código del ticket de compra del catálogo",
