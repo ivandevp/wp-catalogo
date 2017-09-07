@@ -46,5 +46,7 @@ var callCatalogValidation = function(willRedirect, redirectUrl, redirectHomeUrl)
     var catalogValidated = Boolean(sessionStorage.getItem("catalogValidation"));
     if (!catalogValidated) {
         validateCatalogPurchase(willRedirect, redirectUrl, redirectHomeUrl);
+    } else {
+        location.href = redirectUrl;
     }
 };
