@@ -47,6 +47,8 @@ var callCatalogValidation = function(willRedirect, redirectUrl, redirectHomeUrl)
     if (!catalogValidated) {
         validateCatalogPurchase(willRedirect, redirectUrl, redirectHomeUrl);
     } else {
-        location.href = redirectUrl;
+        if (redirectUrl !== null) {
+            location.href = redirectUrl;
+        }
     }
 };
