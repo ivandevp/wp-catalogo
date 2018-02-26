@@ -18,7 +18,6 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
 	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.carouselv2.min.css">
 	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.theme.green.css">

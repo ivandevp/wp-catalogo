@@ -3,12 +3,17 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
     swal({
             title: "Validación de Catálogo",
             text: "Ingresa el Nro. Documento del ticket de compra del catálogo",
-            type: "input",
+            input: "text",
+            width: "478px",
+            padding: 17,
             showCancelButton: true,
             confirmButtonText: 'Aceptar',
+            confirmButtonColor: "rgb(140, 212, 245)",
             cancelButtonText: 'Aún no soy accesora.',
+            cancelButtonColor: "#c1c1c1",
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
+            reverseButtons: true
         },
         function(receipt) {
             if (receipt) {

@@ -17,7 +17,7 @@
 	<script src="//code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script type="text/javascript" src="//unpkg.com/sweetalert2@7.12.14/dist/sweetalert2.all.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/catalog-purchase.js"></script>
 	<script type="text/javascript">
 	    $(document).ready(function() {
