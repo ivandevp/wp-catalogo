@@ -51,6 +51,19 @@ function create_post_type() {
         )
     );
     
+
+    register_post_type('cat_politica',
+        array(
+            'labels' => array(
+                'name' => __('Politicas'),
+                'singular_name' => __('Politica')
+            ),
+            'public' => true,
+            'supports' => array ('title', 'editor', 'page-attributes','thumbnail'),
+        )
+    );
+
+
     register_post_type('cat_beneficios',
         array(
             'labels' => array(
@@ -73,6 +86,17 @@ function create_post_type() {
         )
     );
     
+    register_post_type('cat_prodselec',
+        array(
+            'labels' => array(
+                'name' => __('Productos Seleccionados'),
+                'singular_name' => __('Producto Seleccionado')
+            ),
+            'public' => true,
+            'supports' => array ('title','editor', 'page-attributes', 'thumbnail', 'content'),
+        )
+    );
+
     register_post_type('cat_ads',
         array(
             'labels' => array(

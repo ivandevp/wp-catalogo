@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="es-PE" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Triathlon Catálogos Deportivos &raquo; Libro de Reclamaciones</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://catalogothn.com.pe/xmlrpc.php">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.carouselv2.min.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.theme.green.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/flaticon.css">
+	
+	
+<!-- 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113128666-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-113128666-1');
+	</script> -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5QBM94W');</script>
+<!-- End Google Tag Manager -->
+
+
+		<!--[if lt IE 9]>
+	<script src="http://catalogothn.com.pe/wp-content/themes/catalogo/js/html5.js"></script>
+	<![endif]-->
+	<link rel='dns-prefetch' href='//catalogothn.com.pe' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/catalogothn.com.pe\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='-css'  href='http://catalogothn.com.pe/wp-content/themes/catalogo/style.css?ver=4.7' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://catalogothn.com.pe/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://catalogothn.com.pe/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://catalogothn.com.pe/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7" />
+<link rel="canonical" href="http://catalogothn.com.pe/libro-de-reclamaciones/" />
+<link rel='shortlink' href='http://catalogothn.com.pe/?p=2989' />
+<link rel="alternate" type="application/json+oembed" href="http://catalogothn.com.pe/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcatalogothn.com.pe%2Flibro-de-reclamaciones%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://catalogothn.com.pe/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcatalogothn.com.pe%2Flibro-de-reclamaciones%2F&#038;format=xml" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.banner img {
+    max-width: 100%;
+}
+
+body, hmtl{
+    overflow-x: hidden;
+}
+
+.catalogo a {
+    overflow: hidden !important;
+    display: block;
+max-height: 300px !important;
+}		</style>
+	<link rel="icon" href="http://catalogothn.com.pe/wp-content/uploads/2016/12/cropped-cropped-logo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://catalogothn.com.pe/wp-content/uploads/2016/12/cropped-cropped-logo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://catalogothn.com.pe/wp-content/uploads/2016/12/cropped-cropped-logo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://catalogothn.com.pe/wp-content/uploads/2016/12/cropped-cropped-logo-270x270.jpg" />
+<link rel="icon" href="http://catalogothn.com.pe/wp-content/uploads/2016/12/cropped-cropped-logo-150x150.jpg" sizes="64x64" />
+</head>
+
+<body class="page-template-default page page-id-2989 wp-custom-logo">
+	<nav class="nav-custom">
+		<div class="container">
+			<ul class="navbar-nav navbar-right nav-upper" style="margin-right: 0;">
+				<!--<li><a href="/reclamaciones/" style="font-weight: 500; border-right: 1px solid #fff;">LIBRO DE RECLAMACIONES</a></li>-->
+				<li><a href="http://intranet.catalogothn.com.pe" target="_blank">INTRANET</a></li>
+				<li><a href="/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav class="navbar navbar-thn">
+		<div class="container">
+	    	<div class="container-fluid">
+	      		<div class="navbar-header">
+	        		<button type="button" class="navbar-toggle collapsed btn-responsive" data-toggle="collapse" data-target="#menu-navigation" aria-expanded="false">
+	          			<span class="sr-only">Toggle navigation</span>
+	          			<span class="icon-bar"></span>
+		          		<span class="icon-bar"></span>
+		          		<span class="icon-bar"></span>
+	        		</button>
+	        				        		<a href="http://catalogothn.com.pe/" rel="home" class="navbar-brand">
+		        			<img src="http://catalogothn.com.pe/wp-content/uploads/2017/03/cropped-cropped-logo-thn-negro-1.jpg" alt="Logo - Triathlon Catálogos Deportivos" />
+		        		</a>
+		      		</div>
+		      		<div id="menu-navigation" class="collapse navbar-collapse"><ul id="menu-header-menu" class="nav navbar-nav navbar-right"><li id="menu-item-2928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2928"><a href="http://catalogothn.com.pe/afiliate/">Afíliate</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="http://catalogothn.com.pe/catalogo/">Catálogo</a></li>
+<li id="menu-item-3195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3195"><a href="http://catalogothn.com.pe/contactanos/">Contáctanos</a></li>
+</ul></div>	    	</div><!-- /.container-fluid -->
+	    </div>	
+  	</nav>
+	<div class="container">
+		
+		
+
+
+<div class="reclamaciones">
+	<div>
+	<img class="reclamaciones-img" src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/images/libro-de-reclamaciones.png">        
+        <div class="encabezado">
+            <div class="reclamacion">Hoja de Reclamación Nº 000000</div>
+            <div><span class="fechatxt">Fecha de reclamo o queja:</span><span class="fecha" id="hoy"></span></div> 
+			
+        </div>
+		2563
+		
+
+    <section class="">
+    	<div class="row">
+            <div class="col-xs-12">
+		    	<noscript class="ninja-forms-noscript-message">
+    Notice: JavaScript is required for this content.</noscript><div id="nf-form-7-cont" class="nf-form-cont">
+
+    <div class="nf-loading-spinner"></div>
+
+</div>
+        <!-- TODO: Move to Template File. -->
+        <script>
+            var formDisplay = 1;
+
+            // Maybe initialize nfForms object
+            var nfForms = nfForms || [];
+
+            // Build Form Data
+            var form = [];
+            form.id = '7';
+            form.settings = {"objectType":"Form Setting","editActive":true,"title":"LIBRO DE RECLAMACIONES","key":"","created_at":"2016-08-24 16:39:20","default_label_pos":"above","_seq_num":"3","conditions":[],"show_title":0,"clear_complete":"1","hide_complete":"1","wrapper_class":"","element_class":"","add_submit":"1","logged_in":"","not_logged_in_msg":"","sub_limit_number":"","sub_limit_msg":"","calculations":[],"formContentData":["parrafo_inicial","1_identificacion_del_consumidor_reclamante","nombres","apellidos","correo_electronico","telefono","departamento","distrito","provincia","direccion","doc_de_identidad","no_de_documento","2_identificacion_del_bien_contratado","listradio_1517007693754","monto_1","descripcion","3_detalle_de_la_reclamacion","listradio_1517008095909","descripcion_1","4_acciones_adoptadas_por_el_vendedor","descripcion_2","enviar_reclamo","nota"],"container_styles_background-color":"","container_styles_border":"","container_styles_border-style":"","container_styles_border-color":"","container_styles_color":"","container_styles_height":"","container_styles_width":"","container_styles_font-size":"","container_styles_margin":"","container_styles_padding":"","container_styles_display":"","container_styles_float":"","container_styles_show_advanced_css":"0","container_styles_advanced":"","title_styles_background-color":"","title_styles_border":"","title_styles_border-style":"","title_styles_border-color":"","title_styles_color":"","title_styles_height":"","title_styles_width":"","title_styles_font-size":"","title_styles_margin":"","title_styles_padding":"","title_styles_display":"","title_styles_float":"","title_styles_show_advanced_css":"0","title_styles_advanced":"","row_styles_background-color":"","row_styles_border":"","row_styles_border-style":"","row_styles_border-color":"","row_styles_color":"","row_styles_height":"","row_styles_width":"","row_styles_font-size":"","row_styles_margin":"","row_styles_padding":"","row_styles_display":"","row_styles_show_advanced_css":"0","row_styles_advanced":"","row-odd_styles_background-color":"","row-odd_styles_border":"","row-odd_styles_border-style":"","row-odd_styles_border-color":"","row-odd_styles_color":"","row-odd_styles_height":"","row-odd_styles_width":"","row-odd_styles_font-size":"","row-odd_styles_margin":"","row-odd_styles_padding":"","row-odd_styles_display":"","row-odd_styles_show_advanced_css":"0","row-odd_styles_advanced":"","success-msg_styles_background-color":"","success-msg_styles_border":"","success-msg_styles_border-style":"","success-msg_styles_border-color":"","success-msg_styles_color":"","success-msg_styles_height":"","success-msg_styles_width":"","success-msg_styles_font-size":"","success-msg_styles_margin":"","success-msg_styles_padding":"","success-msg_styles_display":"","success-msg_styles_show_advanced_css":"0","success-msg_styles_advanced":"","error_msg_styles_background-color":"","error_msg_styles_border":"","error_msg_styles_border-style":"","error_msg_styles_border-color":"","error_msg_styles_color":"","error_msg_styles_height":"","error_msg_styles_width":"","error_msg_styles_font-size":"","error_msg_styles_margin":"","error_msg_styles_padding":"","error_msg_styles_display":"","error_msg_styles_show_advanced_css":"0","error_msg_styles_advanced":"","currency":"","changeEmailErrorMsg":"Por favor, ingrese un correo electr\u00f3nico v\u00e1lido.","confirmFieldErrorMsg":"Estos campos deben coincidir.","fieldNumberNumMinError":"Number Min Error","fieldNumberNumMaxError":"Number Max Error","fieldNumberIncrementBy":"Please increment by ","formErrorsCorrectErrors":"Por favor, corrija los errores antes de enviar este formulario.","validateRequiredField":"Este es un campo requerido.","honeypotHoneypotError":"Honeypot Error","fieldsMarkedRequired":"Todos los campos con un (*) son requeridos.","ninjaForms":"Ninja Forms","fieldTextareaRTEInsertLink":"Insert Link","fieldTextareaRTEInsertMedia":"Insert Media","fieldTextareaRTESelectAFile":"Select a file","fileUploadOldCodeFileUploadInProgress":"File Upload in Progress.","fileUploadOldCodeFileUpload":"FILE UPLOAD","currencySymbol":false,"thousands_sep":",","decimal_point":".","currency_symbol":"&#36;","beforeForm":"","beforeFields":"","afterFields":"","afterForm":""};
+
+            form.fields = [{"objectType":"Field","objectDomain":"fields","order":1,"label":"Parrafo Inicial","type":"html","default":"<p class=\"parrafo\">Conforme a lo establecido en el c\u00f3digo de la Protecci\u00f3n y Defensa del consumidor, contamos con un libro de reclamaciones a tu disposici\u00f3n.<\/p>\n\n\n\n\n\n<p class=\"parrafo\">Ingresa una queja o reclamo aqu\u00ed.<\/p>","key":"parrafo_inicial","id":147,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<p class=\"parrafo\">Conforme a lo establecido en el c\u00f3digo de la Protecci\u00f3n y Defensa del consumidor, contamos con un libro de reclamaciones a tu disposici\u00f3n.<\/p>\n\n\n\n\n\n<p class=\"parrafo\">Ingresa una queja o reclamo aqu\u00ed.<\/p>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":2,"label":"1. IDENTIFICACI\u00d3N DEL CONSUMIDOR RECLAMANTE","type":"html","default":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em; letter-spacing: 0.5px; text-transform: uppercase; color:#000;\">1. IDENTIFICACI\u00d3N DEL CONSUMIDOR RECLAMANTE<\/h4>","key":"1_identificacion_del_consumidor_reclamante","id":135,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em; letter-spacing: 0.5px; text-transform: uppercase; color:#000;\">1. IDENTIFICACI\u00d3N DEL CONSUMIDOR RECLAMANTE<\/h4>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":3,"label":"Nombres","key":"nombres","type":"textbox","created_at":"2016-08-24 16:39:20","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","wrap_styles_show_advanced_css":0,"label_styles_show_advanced_css":0,"element_styles_show_advanced_css":0,"cellcid":"c3277","id":117,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":4,"label":"Apellidos","type":"lastname","key":"apellidos","label_pos":"above","required":1,"id":126,"beforeField":"","afterField":"","parentType":"lastname","element_templates":["lastname","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":5,"label":"Correo Electr\u00f3nico","key":"correo_electronico","type":"email","created_at":"2016-08-24 16:39:20","label_pos":"above","required":1,"wrap_styles_show_advanced_css":0,"label_styles_show_advanced_css":0,"element_styles_show_advanced_css":0,"cellcid":"c3281","container_class":"one-half first","id":118,"beforeField":"","afterField":"","parentType":"email","element_templates":["email","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":6,"label":"Tel\u00e9fono","type":"phone","key":"telefono","label_pos":"above","required":1,"container_class":"one-half ","input_limit_type":"characters","input_limit_msg":"Character(s) left","id":127,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["tel","textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":7,"label":"Departamento","type":"liststate","key":"departamento","label_pos":"above","required":1,"options":[{"errors":[],"label":"Seleccione Departamento","value":"seleccione-departamento","calc":"","selected":0,"order":0,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Amazonas","value":"amazonas","calc":"","selected":0,"order":1,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"\u00c1ncash","value":"ancash","calc":"","selected":0,"order":2,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Apur\u00edmac","value":"apurimac","calc":"","selected":0,"order":3,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Arequipa","value":"arequipa","calc":"","selected":0,"order":4,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Ayacucho","value":"ayacucho","calc":"","selected":0,"order":5,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Cajamarca","value":"cajamarca","calc":"","selected":0,"order":6,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Callao","value":"callao","calc":"","selected":0,"order":7,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Cusco","value":"cusco","calc":"","selected":0,"order":8,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Huancavelica","value":"huancavelica","calc":"","selected":0,"order":9,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Hu\u00e1nuco","value":"huanuco","calc":"","selected":0,"order":10,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Ica","value":"ica","calc":"","selected":0,"order":11,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Jun\u00edn","value":"junin","calc":"","selected":0,"order":12,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"La Libertad","value":"la-libertad","calc":"","selected":0,"order":13,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Lambayeque","value":"lambayeque","calc":"","selected":0,"order":14,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Lima","value":"lima","calc":"","selected":0,"order":15,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Loreto","value":"loreto","calc":"","selected":0,"order":16,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Louisiana","value":"LA","calc":"","selected":0,"order":17,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Madre de Dios","value":"madre-de-dios","calc":"","selected":0,"order":18,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Moquegua","value":"moquegua","calc":"","selected":0,"order":19,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Pasco","value":"pasco","calc":"","selected":0,"order":20,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Piura","value":"piura","calc":"","selected":0,"order":21,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Puno","value":"puno","calc":"","selected":0,"order":22,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"San Mart\u00edn ","value":"san-martin","calc":"","selected":0,"order":23,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Tacna","value":"tacna","calc":"","selected":0,"order":24,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Tumbes","value":"tumbes","calc":"","selected":0,"order":25,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Ucayali","value":"ucayali","calc":"","selected":0,"order":26,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}}],"container_class":"one-third  first","id":128,"beforeField":"","afterField":"","parentType":"list","element_templates":["liststate","listselect","input"],"old_classname":"list-select","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":8,"label":"Distrito","type":"zip","key":"distrito","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","container_class":"one-third ","id":129,"beforeField":"","afterField":"","parentType":"zip","element_templates":["zip","textbox","input","textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":9,"label":"Provincia","type":"city","key":"provincia","label_pos":"above","required":1,"container_class":"one-third ","input_limit_type":"characters","input_limit_msg":"Character(s) left","id":134,"beforeField":"","afterField":"","parentType":"city","element_templates":["city","textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":10,"label":"Direcci\u00f3n","type":"address","key":"direccion","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","id":130,"beforeField":"","afterField":"","parentType":"address","element_templates":["address","textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":11,"label":"Doc. de identidad","type":"listselect","key":"doc_de_identidad","label_pos":"above","required":1,"options":[{"errors":[],"order":0,"new":false,"options":[],"label":"Selecciona una opci\u00f3n...","value":"selecciona-una-opcion","calc":"","selected":0,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"DNI","value":"dni","calc":"","selected":0,"order":1,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"C.E.","value":"c-e","calc":"","selected":0,"order":2,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}}],"container_class":"one-half first","id":131,"beforeField":"","afterField":"","parentType":"list","element_templates":["listselect","input"],"old_classname":"list-select","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":12,"label":"N\u00ba de Documento","type":"textbox","key":"no_de_documento","label_pos":"above","required":1,"container_class":"one-half","input_limit_type":"characters","input_limit_msg":"Character(s) left","id":132,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":13,"label":"2. IDENTIFICACI\u00d3N DEL BIEN CONTRATADO","type":"html","default":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">2. IDENTIFICACI\u00d3N DEL BIEN CONTRATADO<\/h4>","key":"2_identificacion_del_bien_contratado","id":136,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">2. IDENTIFICACI\u00d3N DEL BIEN CONTRATADO<\/h4>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":14,"type":"listradio","key":"listradio_1517007693754","label_pos":"above","required":1,"options":[{"errors":[],"label":"Producto","value":"producto","calc":"","selected":0,"order":1,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Servicio","value":"servicio","calc":"","selected":0,"order":2,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}}],"id":137,"beforeField":"","afterField":"","parentType":"list","element_templates":["listradio","input"],"old_classname":"list-radio","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":15,"label":"Monto","type":"textbox","key":"monto_1","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","id":140,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":16,"label":"Descripci\u00f3n","type":"textarea","key":"descripcion","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","id":139,"beforeField":"","afterField":"","parentType":"textarea","element_templates":["textarea","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":17,"label":"3. DETALLE DE LA RECLAMACI\u00d3N","type":"html","default":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">3. DETALLE DE LA RECLAMACI\u00d3N<\/h4>","key":"3_detalle_de_la_reclamacion","id":141,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">3. DETALLE DE LA RECLAMACI\u00d3N<\/h4>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":18,"type":"listradio","key":"listradio_1517008095909","label_pos":"above","required":1,"options":[{"errors":[],"label":"Queja","value":"queja","calc":"","selected":0,"order":1,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}},{"errors":[],"label":"Reclamo","value":"reclamo","calc":"","selected":0,"order":2,"settingModel":{"settings":false,"hide_merge_tags":false,"error":false,"name":"options","type":"option-repeater","label":"Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a>","width":"full","group":"","value":[{"label":"One","value":"one","calc":"","selected":0,"order":0},{"label":"Two","value":"two","calc":"","selected":0,"order":1},{"label":"Three","value":"three","calc":"","selected":0,"order":2}],"columns":{"label":{"header":"Label","default":""},"value":{"header":"Value","default":""},"calc":{"header":"Calc Value","default":""},"selected":{"header":"<span class=\"dashicons dashicons-yes\"><\/span>","default":0}}}}],"id":142,"beforeField":"","afterField":"","parentType":"list","element_templates":["listradio","input"],"old_classname":"list-radio","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":19,"label":"Descripci\u00f3n","type":"textarea","key":"descripcion_1","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","id":143,"beforeField":"","afterField":"","parentType":"textarea","element_templates":["textarea","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":20,"label":"4. ACCIONES ADOPTADAS POR EL VENDEDOR","type":"html","default":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">4. ACCIONES ADOPTADAS POR EL VENDEDOR<\/h4>","key":"4_acciones_adoptadas_por_el_vendedor","id":144,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<h4 style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 18px; line-height: 1.25em;letter-spacing: 0.5px; text-transform: uppercase;color:#000000;\">4. ACCIONES ADOPTADAS POR EL VENDEDOR<\/h4>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":21,"label":"Descripci\u00f3n","type":"textarea","key":"descripcion_2","label_pos":"above","required":1,"input_limit_type":"characters","input_limit_msg":"Character(s) left","id":145,"beforeField":"","afterField":"","parentType":"textarea","element_templates":["textarea","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","order":22,"label":"ENVIAR RECLAMO","key":"enviar_reclamo","type":"submit","created_at":"2016-08-24 16:39:20","processing_label":"Processing","wrap_styles_show_advanced_css":0,"label_styles_show_advanced_css":0,"element_styles_show_advanced_css":0,"submit_element_hover_styles_show_advanced_css":0,"cellcid":"c3287","id":120,"beforeField":"","afterField":"","label_pos":"above","parentType":"textbox","element_templates":["submit","button","input"],"old_classname":"","wrap_template":"wrap-no-label"},{"objectType":"Field","objectDomain":"fields","order":23,"label":"Nota","type":"html","default":"<div>            <h6>NOTA<\/h6>            <p class=\"parrafo\">Reclamo(*): Disconformidad relacionada a los bienes expendidos o suministrados o a los servicios prestados.<\/p>            <p class=\"parrafo\">Queja(*): Disconformidad que NO se encuentran relacionada a los bienes expendidos o suministrados o a los servicios prestados.<\/p>            <p class=\"parrafo\">El proveedor deber\u00e1 dar respuesta al reclamo en un plazo no mayor de treinta (30) d\u00edas calendario, pudiendo ampliar el plazo hasta por treinta (30) d\u00edas m\u00e1s, previa comunicaci\u00f3n al consumidor.<\/p><\/div>","key":"nota","id":146,"beforeField":"","afterField":"","label_pos":"above","parentType":"html","value":"<div>            <h6>NOTA<\/h6>            <p class=\"parrafo\">Reclamo(*): Disconformidad relacionada a los bienes expendidos o suministrados o a los servicios prestados.<\/p>            <p class=\"parrafo\">Queja(*): Disconformidad que NO se encuentran relacionada a los bienes expendidos o suministrados o a los servicios prestados.<\/p>            <p class=\"parrafo\">El proveedor deber\u00e1 dar respuesta al reclamo en un plazo no mayor de treinta (30) d\u00edas calendario, pudiendo ampliar el plazo hasta por treinta (30) d\u00edas m\u00e1s, previa comunicaci\u00f3n al consumidor.<\/p><\/div>","element_templates":["html","input"],"old_classname":"","wrap_template":"wrap"}];
+
+            // Add Form Data to nfForms object
+            nfForms.push( form );
+        </script>
+
+        			</div>
+		</div>
+		
+	</section>		
+</div>
+</div>
+ 
+<script type="text/javascript">
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];}
+var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+document.getElementById("hoy").innerHTML  = (day + " de " + months[month] + " del " + year);
+</script>
+
+
+</div>
+    <footer>
+    <div class="footer-sec">
+        <div class="container">
+            <div class="row">
+    
+        <div class="col-xs-6 col-sm-4">
+        <a href="https://goo.gl/k8n77h">
+            <p>FACEBOOK</p>
+            <span class="border-footer"></span>
+            <img src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/images/fb.png">
+        </a>
+        </div>
+         <div class="col-xs-6 col-sm-4">
+            <a href="/contactanos/">
+            <p>TELEVENTAS</p>
+            <span class="border-footer2"></span>
+            <img src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/images/call.png"></a></div>
+         <div class="col-xs-6 col-sm-4">
+             <a href="https://goo.gl/Z7iVmX">
+            <p>LIBRO DE RECLAMACIONES</p>
+            <span class="border-footer3"></span>
+            <img src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/images/libro-reclamaciones.png">
+        </a></div>
+    </div>
+    </div></div>
+    <div id="colophon" class="site-footer default" role="contentinfo">
+        <div class="footer-area-wrap inner-container">
+        <div class="container">
+        <section class="footer-area widget-area footer-area--4-cols row">
+        <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-3  widget">
+            <h6 class="widget-title">AYUDA PARA ASESORES</h6>
+            <ul>
+                <li><a href="/terminos-y-condiciones-televentas-provincias/">Términos y Condiciones Televentas Provincias</a></li>
+                <li><a href="/terminos-y-condiciones-de-las-promociones/">Términos y Condiciones de las Promociones</a></li>
+                <li><a href="/como-ver-el-catalogo/">¿Cómo ver el Catálogo?</a></li>
+                <li><a href="/como-ver-el-stock/">¿Cómo ver el Stock de Productos?</a></li>
+                <li><a href="/preguntas-frecuentes-2/">Preguntas Frecuentes</a></li>
+            </ul>
+        </aside>
+    
+    
+        <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-3  widget">
+            <h6 class="widget-title">ACCERCA DE CATÁLOGO</h6>
+            <ul>
+                <li><a href="/nosotros/">Sobre Nosotros</a></li>
+                <li><a href="/ubicanos/">Ubícanos</a></li>
+                <li><a href="/contactanos/">Contáctanos</a></li>
+            </ul>
+        </aside>
+    
+        <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-3  widget">
+            <a href="/contactanos/"><h6 class="widget-title">CONTÁCTANOS</h6></a>
+            <ul>
+            <div class="contacto-item"><span class="fa fa-envelope"></span><span class="contacto-titulo">Consultas WEB:</span>
+            <li><a href="mailto:solucionescat@triathlon.com.pe?" target="_top">solucionescat@triathlon.com.pe</a></li>    
+            </div>
+                <div class="contacto-item"><span class="fa fa-envelope"></span><span class="contacto-titulo">Correo Televentas:</span>
+                <li><a href="mailto:call1@triathlon-sport.com?" target="_top">call1@triathlon-sport.com</a></li>
+                <li><a href="mailto:call2@triathlon-sport.com?" target="_top">call2@triathlon-sport.com</a></li></div>
+                <div class="contacto-item"><span class="fa fa-phone"></span><span class="contacto-titulo">Televentas Provincias:</span>
+                <li><a href="tel:01413838">(01) 418 -3838</a></li></div>
+    
+                <div class="contacto-item"><span class="fa fa-clock-o"></span><span class="contacto-titulo">Horario de atención:</span>
+                <li>Lun a Vie de 8:00 AM a 6:30 PM</li></div>
+            </ul>
+        </aside>
+    
+        <aside id="calio_contact_information_widget-3" class="col-xs-12 col-sm-12 col-md-6 col-lg-3  widget">
+            <h6 class="widget-title">FORMAS DE PAGO</h6>
+            <ul>
+                <li>Pago en BCP</li>
+                 <li>Pago en TIendas</li>
+            </ul>
+
+            <div style="padding-top: 15px;">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftriathloncatalogooficial%2F&tabs&width=250&height=150&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="250" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+                </iframe>
+            </div>
+            
+            <div class="libro-reclamaciones">
+            <a href="https://goo.gl/Z7iVmX">    
+            <span style="font-weight: 600;">LIBRO DE RECLAMACIONES</span>
+            <img src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/images/libro-reclamaciones.png">
+            </a></div>
+        </aside>
+        </section>
+        </div>
+    </div>
+    
+    
+    
+    
+        <div class="footer-container">
+            <div class="site-info container">
+                <div class="site-info-wrap">
+                    <div class="footer-copyright">Triathlon Catálogos Deportivos | Todos los derechos reservados | 
+                                2018        
+                    </div>                         
+                </div>
+            </div>
+        </div>
+        </div>    
+    </footer>
+        
+        
+    
+    
+    
+    
+        <link rel='stylesheet' id='dashicons-css'  href='http://catalogothn.com.pe/wp-includes/css/dashicons.min.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='nf-display-css'  href='http://catalogothn.com.pe/wp-content/plugins/ninja-forms/assets/css/display-structure.css?ver=4.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-includes/js/wp-embed.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-content/plugins/ninja-forms/assets/js/min/front-end-deps.js?ver=3.0.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var nfi18n = {"ninjaForms":"Ninja Forms","changeEmailErrorMsg":"Please enter a valid email address!","confirmFieldErrorMsg":"These fields must match!","fieldNumberNumMinError":"Number Min Error","fieldNumberNumMaxError":"Number Max Error","fieldNumberIncrementBy":"Please increment by ","fieldTextareaRTEInsertLink":"Insert Link","fieldTextareaRTEInsertMedia":"Insert Media","fieldTextareaRTESelectAFile":"Select a file","formErrorsCorrectErrors":"Please correct errors before submitting this form.","validateRequiredField":"This is a required field.","honeypotHoneypotError":"Honeypot Error","fileUploadOldCodeFileUploadInProgress":"File Upload in Progress.","fileUploadOldCodeFileUpload":"FILE UPLOAD","currencySymbol":"","fieldsMarkedRequired":"Fields marked with an <span class=\"ninja-forms-req-symbol\">*<\/span> are required","thousands_sep":",","decimal_point":"."};
+var nfFrontEnd = {"ajaxNonce":"95ed13f49c","adminAjax":"http:\/\/catalogothn.com.pe\/wp-admin\/admin-ajax.php","requireBaseUrl":"http:\/\/catalogothn.com.pe\/wp-content\/plugins\/ninja-forms\/assets\/js\/","use_merge_tags":{"user":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr"},"post":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr"},"system":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr"},"fields":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr"},"calculations":{"html":"html","hidden":"hidden","note":"note","unknown":"unknown"}},"opinionated_styles":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://catalogothn.com.pe/wp-content/plugins/ninja-forms/assets/js/min/front-end.js?ver=3.0.20'></script>
+<script id="tmpl-nf-layout" type="text/template">
+	<span class="nf-form-title">
+		<h3>{{{ ( 1 == data.settings.show_title ) ? data.settings.title : '' }}}</h3>
+	</span>
+	<div class="nf-form-wrap ninja-forms-form-wrap">
+		<div class="nf-response-msg"></div>
+		<div class="nf-debug-msg"></div>
+		<div class="nf-before-form"></div>
+		<div class="nf-form-layout"></div>
+		<div class="nf-after-form"></div>
+	</div>
+</script>
+
+<script id="tmpl-nf-empty" type="text/template">
+
+</script><script id="tmpl-nf-before-form" type="text/template">
+	{{{ data.beforeForm }}}
+</script><script id="tmpl-nf-after-form" type="text/template">
+	{{{ data.afterForm }}}
+</script><script id="tmpl-nf-before-fields" type="text/template">
+    <div class="nf-form-fields-required">{{{ data.renderFieldsMarkedRequired() }}}</div>
+    {{{ data.beforeFields }}}
+</script><script id="tmpl-nf-after-fields" type="text/template">
+    {{{ data.afterFields }}}
+    <div class="nf-form-errors"></div>
+    <div class="nf-form-hp"></div>
+</script><script id="tmpl-nf-before-field" type="text/template">
+    {{{ data.beforeField }}}
+</script><script id="tmpl-nf-after-field" type="text/template">
+    {{{ data.afterField }}}
+</script><script id="tmpl-nf-form-layout" type="text/template">
+	<div class="{{{ data.wrapper_class }}}">
+		<div class="nf-before-form-content"></div>
+		<div class="nf-form-content {{{ data.element_class }}}"></div>
+		<div class="nf-after-form-content"></div>
+	</div>
+</script><script id="tmpl-nf-form-hp" type="text/template">
+	<label for="nf-field-hp-{{{ data.id }}}">
+		{{{ nfi18n.formHoneypot }}}
+		<input id="nf-field-hp-{{{ data.id }}}" name="nf-field-hp" class="nf-element nf-field-hp" type="text" value=""/>
+	</label>
+</script><script id="tmpl-nf-field-layout" type="text/template">
+    <div id="nf-field-{{{ data.id }}}-container" class="nf-field-container {{{ data.type }}}-container {{{ data.renderContainerClass() }}}">
+        <div class="nf-before-field"></div>
+        <div class="nf-field"></div>
+        <div class="nf-after-field"></div>
+    </div>
+</script>
+<script id="tmpl-nf-field-before" type="text/template">
+    {{{ data.beforeField }}}
+</script><script id="tmpl-nf-field-after" type="text/template">
+	<#
+	/*
+	 * Render our input limit section if that setting exists.
+	 */
+	#>
+	<div class="nf-input-limit"></div>
+	<#
+	/*
+	 * Render our error section if we have an error.
+	 */
+    #>
+	<div class="nf-error-wrap nf-error"></div>
+	<#
+	/*
+	 * Render any custom HTML after our field.
+	 */
+    #>
+    {{{ data.afterField }}}
+</script>
+<script id="tmpl-nf-field-wrap" type="text/template">
+	<div id="nf-field-{{{ data.id }}}-wrap" class="{{{ data.renderWrapClass() }}}" data-field-id="{{{ data.id }}}">
+		<#
+		/*
+		 * This is our main field template. It's called for every field type.
+		 * Note that must have ONE top-level, wrapping element. i.e. a div/span/etc that wraps all of the template.
+		 *
+		 * <div>
+		 * 	 <div>
+		 *   	Cool Stuff
+		 * 	 </div>
+		 *   <span>
+		 * 		Hello World!
+		 *   </span>
+		 * </div>
+		 *
+		 * is OK.
+		 *
+		 * <div>
+		 * 		Cool Stuff
+		 * </div>
+		 * <span>
+		 * 		Hello World!
+		 * </span>
+		 *
+		 * is NOT ok because each of those items is on the top-level.
+		 */
+        #>
+		<#
+		/*
+		 * Render our label.
+		 */
+        #>
+		{{{ data.renderLabel() }}}
+		<#
+		/*
+		 * Render our field element. Uses the template for the field being rendered.
+		 */
+        #>
+		<div class="nf-field-element">{{{ data.renderElement() }}}</div>
+		<#
+		/*
+		 * Render our Description Text.
+		 */
+        #>
+		{{{ data.renderDescText() }}}
+	</div>
+</script>
+<script id="tmpl-nf-field-wrap-no-label" type="text/template">
+    <div id="nf-field-{{{ data.id }}}-wrap" class="{{{ data.renderWrapClass() }}}" data-field-id="{{{ data.id }}}">
+        <div class="nf-field-label"></div>
+        <div class="nf-field-element">{{{ data.renderElement() }}}</div>
+        <div class="nf-error-wrap"></div>
+    </div>
+</script>
+<script id="tmpl-nf-field-wrap-no-container" type="text/template">
+
+        {{{ data.renderElement() }}}
+
+        <div class="nf-error-wrap"></div>
+</script>
+<script id="tmpl-nf-field-label" type="text/template">
+	<div class="nf-field-label"><label for="nf-field-{{{ data.id }}}" class="{{{ data.renderLabelClasses() }}}">{{{ data.label }}} {{{ ( 'undefined' != typeof data.required && 1 == data.required ) ? '<span class="ninja-forms-req-symbol">*</span>' : '' }}} {{{ data.maybeRenderHelp() }}}</label></div>
+</script>
+<script id="tmpl-nf-field-error" type="text/template">
+	<div class="nf-error-msg nf-error-{{{ data.id }}}">{{{ data.msg }}}</div>
+</script><script id="tmpl-nf-form-error" type="text/template">
+	<div class="nf-error-msg nf-error-{{{ data.id }}}">{{{ data.msg }}}</div>
+</script><script id="tmpl-nf-field-input-limit" type="text/template">
+    {{{ data.currentCount() }}} of {{{ data.input_limit }}} {{{ data.input_limit_msg }}}
+</script><script id="nf-tmpl-field-null" type="text/template">
+</script><script id="tmpl-nf-field-html" type="text/template">
+    {{{ data.value }}}
+</script>
+
+
+<script id='tmpl-nf-field-input' type='text/template'>
+    <input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}} {{{ data.maybeDisabled() }}}>
+</script><script id="tmpl-nf-field-textbox" type="text/template">
+	<input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}} {{{ data.maybeDisabled() }}} {{{ data.maybeDisableAutocomplete() }}} {{{ data.maybeInputLimit() }}}>
+</script><script id="tmpl-nf-field-lastname" type="text/template">
+    <input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script><script id="tmpl-nf-field-email" type="text/template">
+	<input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="email" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script><script id="tmpl-nf-field-tel" type="text/template">
+	<input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="tel" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+<script id="tmpl-nf-field-listselect" type="text/template">
+    <select id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" {{{ data.renderOtherAttributes() }}}>
+        {{{ data.renderOptions() }}}
+    </select>
+    <div for="nf-field-{{{ data.id }}}"></div>
+</script>
+
+<script id="tmpl-nf-field-listselect-option" type="text/template">
+	<# if ( ! data.visible ) { return ''; } #>
+	<option value="{{{ data.value }}}" {{{ ( 1 == data.selected ) ? 'selected="selected"' : '' }}} >{{{ data.label }}}</option>
+</script>
+<script id="tmpl-nf-field-listradio" type="text/template">
+    <ul>
+        {{{ data.renderOptions() }}}
+    </ul>
+</script>
+
+<script id='tmpl-nf-field-listradio-option' type='text/template'>
+    <# if ( ! data.visible ) { return '' } #>
+    <li>
+        <input type="radio" id="nf-field-{{{ data.fieldID }}}-{{{ data.index }}}" name="nf-field-{{{ data.fieldID }}}" class="{{{ data.classes }}} nf-element {{{ ( data.value == data.currentValue  || 1 == data.selected ) ? 'nf-checked' : '' }}}" value="{{{ data.value }}}" {{{ ( data.value == data.currentValue  || 1 == data.selected ) ? 'checked="checked"' : '' }}}> <label for="nf-field-{{{ data.fieldID }}}-{{{ data.index }}}" class="{{{ ( data.value == data.currentValue  || 1 == data.selected ) ? 'nf-checked-label' : '' }}}">{{{ data.label }}}</label>
+    </li>
+</script>
+
+<script id='tmpl-nf-field-listradio-other' type='text/template'>
+    <li>
+        <input type="radio" name="nf-field-{{{ data.fieldID }}}" class="{{{ data.classes }}} nf-element" value="nf-other" {{{ ( ! data.valueFound ) ? 'checked="checked"' : '' }}}> <label>Other {{{ data.renderOtherText() }}}</label>
+    </li>
+</script>
+
+<script id='tmpl-nf-field-listradio-other-text' type='text/template'>
+    <input type="text" name="nf-field-{{{ data.fieldID }}}" class="nf-element" value="{{{ data.currentValue }}}">
+</script>
+<script id="tmpl-nf-field-textarea" type="text/template">
+	<textarea id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" {{{ data.renderPlaceholder() }}}" {{{ data.maybeDisabled() }}} {{{ data.maybeDisableAutocomplete() }}} {{{ data.maybeInputLimit() }}}>{{{ data.value }}}</textarea>
+</script>
+
+<!-- Rich Text Editor Templates -->
+
+<script id="tmpl-nf-rte-media-button" type="text/template">
+    <span class="dashicons dashicons-admin-media"></span>
+</script>
+
+<script id="tmpl-nf-rte-link-button" type="text/template">
+    <span class="dashicons dashicons-admin-links"></span>
+</script>
+
+<script id="tmpl-nf-rte-unlink-button" type="text/template">
+    <span class="dashicons dashicons-editor-unlink"></span>
+</script>
+
+<script id="tmpl-nf-rte-link-dropdown" type="text/template">
+    <div class="summernote-link">
+        URL
+        <input type="url" class="widefat code link-url"> <br />
+        Text
+        <input type="url" class="widefat code link-text"> <br />
+        <label>
+            <input type="checkbox" class="link-new-window"> {{{ nfi18n.fieldsTextareaOpenNewWindow }}}
+        </label>
+        <input type="button" class="cancel-link extra" value="Cancel">
+        <input type="button" class="insert-link extra" value="Insert">
+    </div>
+</script>
+<script id="tmpl-nf-field-submit" type="text/template">
+	<input id="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element " type="button" value="{{{ data.label }}}" {{{ ( data.disabled ) ? 'disabled' : '' }}}>
+</script><script id='tmpl-nf-field-button' type='text/template'>
+    <button id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.classes }}} nf-element">
+        {{{ data.label }}}
+    </button>
+</script>        <script>
+            var post_max_size = '1024';
+            var upload_max_filesize = '1024';
+            var wp_memory_limit = '40';
+        </script>
+            <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QBM94W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+        <script src="//code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        <script type="text/javascript" src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/js/catalog-purchase.js"></script>
+        <script type="text/javascript" src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/js/theme-script.js"></script>
+        <script type="text/javascript" src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/js/owl.carousel.js"></script>
+    
+    
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#modal-ads").modal('show');
+                $('#carousel-marcas').carousel({
+                    interval: 3000
+                });
+                $('#carousel-novedades').carousel({
+                    interval: 5000,
+                    pause:"hover"
+                });
+                $('#carousel-catalogos').carousel({
+                    interval: 3000
+                });
+                var $catalogLink = $("#menu-header-menu").children().eq(1).find("a");
+                $catalogLink.click(function (e) {
+                    e.preventDefault();
+                    var url = $(this).attr("href");
+                    callCatalogValidation(true, url);
+                })
+            });
+        </script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-prodselec').owlCarousel({
+                loop:true,
+                margin:60,
+                nav:true,
+                dots: true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                    items:2,
+                    },
+                    600:{
+                    items:4,
+                    
+                    },
+                    1000:{
+                    items:4}}
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                center: true,
+                margin:30,
+                nav:true,
+                dots: false,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                    items:1,
+                    margin:20,
+                    dots: true},
+                    600:{
+                    items:2,},
+                    1000:{
+                    items:2}}
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-marcas').owlCarousel({
+                loop:true,
+                margin:100,
+                autoplay:true,
+                dots: false,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                    items:3,
+                    dots: true
+                    },
+                    600:{
+                    items:4,
+                    
+                    },
+                    1000:{
+                    items:6}}
+            });
+        });
+    </script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-principal').owlCarousel({
+                loop:true,
+                autoplay:true,
+                dots: true,
+                nav:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                    items:1,
+                    },
+                    600:{
+                    items:1,
+                    
+                    },
+                    1000:{
+                    items:1}}
+            });
+        });
+    </script>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "123556001653381", // Facebook page ID
+            whatsapp: "+51998224447", // WhatsApp number
+            company_logo_url: "//www.facebook.com/123556001653381/photos/144842996191348/", // URL of company logo (png, jpg, gif)
+            greeting_message: "", // Text of greeting message
+            call_to_action: "", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp" // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+
+
+    </body>
+    </html>
+    
+    
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+
+Served from: localhost @ 2018-02-26 09:22:14 by W3 Total Cache
+-->

@@ -21,7 +21,7 @@ get_header(); ?>
 					<p class="txt-blue" style="font-size: 20pt;"><strong>418 - 3838</strong></p>
                 </div>
 	        </div>
-	        <h2 class="text-center" style="font-size: 40px;">VISÍTANOS EN</h2>
+	        <h2 class="text-center" style="font-size: 40px;">VISÍTANOS EN LIMA </h2>
 	        <div class="row">
 	        	<div class="col-md-6 col-xs-12">
 	        		<div class="map">
@@ -49,7 +49,7 @@ get_header(); ?>
 		        </div>
 	        </div>
 	    </div>    
-	    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
+	    <img class="img-border" src="<?php echo get_template_directory_uri(); ?>/assets/images/borde-final.png" style="position: absolute; bottom: 0; left: 0;">
     </section>
 <?php
 

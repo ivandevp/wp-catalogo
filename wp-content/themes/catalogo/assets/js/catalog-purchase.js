@@ -2,9 +2,11 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
     var urlValidation = 'http://170.0.82.214/catalogos/api/receipt/';
     swal({
             title: "Validación de Catálogo",
-            text: "Ingresa el código del ticket de compra del catálogo",
+            text: "Ingresa el Nro. Documento del ticket de compra del catálogo",
             type: "input",
-            showCancelButton: false,
+            showCancelButton: true,
+            confirmButtonText: 'Aceptar',
+            cancelButtonText: 'Aún no soy accesora.',
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
         },
@@ -13,7 +15,7 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
                 $.getJSON(urlValidation + receipt)
                     .done(function(response) {
                         if (response == null) {
-                            swal("Oops...", "No se ha encontrado el ticket ingresado.", "error");
+                            swal("Oops...", "No se ha encontrado Nro. Documento del ticket ingresado.", "error");
                             if (redirectHomeUrl) {
                                 location.href = redirectHomeUrl;
                             }
@@ -21,7 +23,7 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
                         }
                         else {
                             sessionStorage.setItem("catalogValidation", "true");
-                            swal("Gracias!", "Compra de catálogo validada correctamente", "success");
+                            swal("Gracias!", "El Nro. Documento del ticket fue ingresado correctamente", "success");
                             if (willRedirect) {
                                 location.href = redirectUrl;
                             }
@@ -36,7 +38,8 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
                     });
             } else {
                 if (redirectHomeUrl) {
-                    location.href = redirectHomeUrl;
+                    //location.href = redirectHomeUrl;
+                    location.href = 'http://catalogothn.com.pe/afiliate/';
                 }
             }
         });

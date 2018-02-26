@@ -19,14 +19,30 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109435769-1"></script>
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.carouselv2.min.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/owl.theme.green.css">
+	<link rel="stylesheet" href="http://catalogothn.com.pe/wp-content/themes/catalogo/assets/css/flaticon.css">
+	
+	
+<!-- 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113128666-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments)};
       gtag('js', new Date());
     
-      gtag('config', 'UA-109435769-1');
-    </script>
+      gtag('config', 'UA-113128666-1');
+	</script> -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5QBM94W');</script>
+<!-- End Google Tag Manager -->
+
+
 	<?php wp_enqueue_style( '', get_stylesheet_uri() ); ?>
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
@@ -38,7 +54,7 @@
 	<nav class="nav-custom">
 		<div class="container">
 			<ul class="navbar-nav navbar-right nav-upper" style="margin-right: 0;">
-				<li><a href="<?php get_site_url(); ?>/reclamaciones/" style="font-weight: 500; border-right: 1px solid #fff;">LIBRO DE RECLAMACIONES</a></li>
+				<!--<li><a href="<?php get_site_url(); ?>/reclamaciones/" style="font-weight: 500; border-right: 1px solid #fff;">LIBRO DE RECLAMACIONES</a></li>-->
 				<li><a href="http://intranet.catalogothn.com.pe" target="_blank">INTRANET</a></li>
 				<li><a href="<?php get_site_url(); ?>/afiliate/" class="nav-afiliate">AFÍLIATE</a></li>
 			</ul>
