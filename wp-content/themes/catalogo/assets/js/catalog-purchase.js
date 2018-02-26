@@ -1,5 +1,4 @@
 var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUrl) {
-    var urlValidation = 'http://170.0.82.214/catalogos/api/receipt/';
     swal({
             title: "Validación de Catálogo",
             text: "Ingresa el Nro. Documento del ticket de compra del catálogo",
@@ -15,10 +14,10 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
             reverseButtons: true
-        },
-        function(receipt) {
-            if (receipt) {
-                $.getJSON(urlValidation + receipt)
+        }).then(function(receipt) {
+            if (receipt.value) {
+                var urlValidation = 'http://170.0.82.214/catalogos/api/receipt/';
+                $.getJSON(urlValidation + receipt.value)
                     .done(function(response) {
                         if (response == null) {
                             swal("Oops...", "No se ha encontrado Nro. Documento del ticket ingresado.", "error");
