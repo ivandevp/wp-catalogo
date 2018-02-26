@@ -10,7 +10,8 @@ var validateCatalogPurchase = function(willRedirect, redirectUrl, redirectHomeUr
             confirmButtonText: 'Aceptar',
             confirmButtonColor: "rgb(140, 212, 245)",
             cancelButtonText: 'Aún no soy accesora.',
-            cancelButtonColor: "#c1c1c1",
+            cancelButtonColor: "#c<1c1c1",
+            showCloseButton: true,
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
             reverseButtons: true
